@@ -351,6 +351,7 @@ if (isServer and isNil "sm_done") then {
 	_sNEAF = [] call spawn_NEAF;
 	_sBolataCastle = [] call spawn_BolataCastle;
 	_sbalotoAF = [] call spawn_balotoAF;
+	_sBlackMarket = [] call spawn_BlackMarket;
 	
 	sm_done = true;
 	publicVariable "sm_done";

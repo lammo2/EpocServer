@@ -36,6 +36,7 @@ spawn_balotoAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compil
 spawn_cap_golova = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\cap_golova.sqf";
 spawn_electro = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\electro.sqf";
 spawn_stary = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\stary.sqf";
+spawn_BlackMarket = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\BlackMarket.sqf";
 
 vehicle_handleInteract = {
 	private["_object"];

@@ -1534,7 +1534,7 @@ if (true) then
 _unit_132 = objNull;
 if (true) then
 {
-  _this = _group_2 createUnit ["GUE_Woodlander2", [6321.0439, 7781.0288], [], 0, "CAN_COLLIDE"];
+  _this = _group_2 createUnit ["GUE_Woodlander2", [7801.2646, 3537.5103, -1.2397766e-005], [], 0, "CAN_COLLIDE"];
   _unit_132 = _this;
   _this setDir 9.6638927;
   _this setVehicleInit "this allowDammage false; this disableAI 'FSM'; this disableAI 'MOVE'; this disableAI 'AUTOTARGET'; this disableAI 'TARGET'; this setBehaviour 'CARELESS'; this forceSpeed 0;";
