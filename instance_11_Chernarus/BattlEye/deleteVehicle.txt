@@ -1,8 +1,8 @@
-1 "" !"_DZ" !"DZ_" !"WeaponHolder" !"z_" !"Wreck" !"zZombie_Base" !"WoodenArrowF" !"Rabbit" !"VIL_panda_civil" !"HMMWVWreck" !"UAZWreck" !"Ural_TK_CIV_EP1" !"VaultStorageLocked" !"VaultStorage"
+1 "" !"_DZ" !"DZ_" !"WeaponHolder" !"z_" !"Wreck" !"Fort_Barricade_EP1" !"Land_Misc_Garb_Heap_EP1" !"zZombie_Base" !"WoodenArrowF" !"Rabbit" !"VIL_panda_civil" !"HMMWVWreck" !"UAZWreck" !"Ural_TK_CIV_EP1" !"VaultStorageLocked" !"VaultStorage"
 1 "WeaponHolder_" !"WeaponHolder_PartWheel" !"WeaponHolder_PartGlass" !"WeaponHolder_PartVRotor" !"WeaponHolder_PartEngine" !"WeaponHolder_PartGeneric" !"WeaponHolder_PartFueltank" !"WeaponHolder_ItemTent" !"WeaponHolder_ItemCrowbar" !"WeaponHolder_ItemHatchet" !"WeaponHolder_ItemFuelcan" !"WeaponHolder_ItemJerrycan"
 1 "z_" !"DZ_" !"z_villager1" !"z_new_villager2" !"z_villager2" !"z_new_villager3" !"z_villager3" !"z_new_villager4" !"z_worker1" !"z_new_worker2" !"z_worker2" !"z_new_worker3" !"z_worker3" !"z_new_worker4" !"z_teacher" !"z_hunter" !"z_suit1" !"z_suit2" !"z_soldier" !"z_soldier_pilot" !"z_soldier_heavy" !"z_policeman" !"z_doctor" !"z_priest"
 1 "DZ_" !"DZ_British_ACU" !"DZ_Czech_Vest_Puch" !"DZ_TK_Assault_Pack_EP1" !"DZ_Patrol_Pack_EP1" !"DZ_Assault_Pack_EP1" !"DZ_ALICE_Pack_EP1" !"DZ_CivilBackpack_EP1" !"DZ_Backpack_EP1"
-1 "_DZ" !"CinderWallHalf_DZ" !"MV22_DZ" !"SurvivorW2_DZ"  !"Survivor1_DZ" !"Survivor2_DZ" !"Survivor3_DZ" !"Sniper1_DZ" !"Camo1_DZ" !"BanditW1_DZ" !"Bandit1_DZ" !"SurvivorW2_DZ" !"Soldier1_DZ"
-1 "Wreck" !"SKODAWreck" !"datsun01Wreck"
+1 "_DZ" !"CinderWallDoorway_DZ" !"MetalPanel_DZ" !"CinderWallHalf_DZ" !"MV22_DZ" !"SurvivorW2_DZ"  !"Survivor1_DZ" !"Survivor2_DZ" !"Survivor3_DZ" !"Sniper1_DZ" !"Camo1_DZ" !"BanditW1_DZ" !"Bandit1_DZ" !"SurvivorW2_DZ" !"Soldier1_DZ"
+1 "Wreck" !"SKODAWreck" !"datsun01Wreck" !"HMMWVWreck" !"UAZWreck" !"datsun02Wreck" !"UralWreck" !"hiluxWreck"
 //Will remove later once everything is filtered out
 1 "Land_CncBlock_D"
