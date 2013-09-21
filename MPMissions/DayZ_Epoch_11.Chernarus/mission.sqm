@@ -1444,7 +1444,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="Aircraft_safezone";
-			expCond="(player distance Aircraft_safezone) < 100;";
+			expCond="(player distance Aircraft_safezone) < 50;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
