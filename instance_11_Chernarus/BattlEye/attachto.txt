@@ -1,3 +1,4 @@
-1 "" !"Shot" !"_DZ" !"VIL_" !"WoodenArrowF" !"Fort_RazorWirePreview"
-1 "_DZ" !"VaultStorageLocked" !"WorkBench_DZ" !"SurvivorW2_DZ"  !"Survivor1_DZ" !"Survivor2_DZ" !"Survivor3_DZ" !"Sniper1_DZ" !"Camo1_DZ" !"BanditW1_DZ" !"Bandit1_DZ" !"SurvivorW2_DZ" !"Soldier1_DZ"
+1 "" !"Shot" !"_DZ" !"VIL_" !"Wood" !"Fort_RazorWirePreview" !"VaultStorageLocked"
+1 "_DZ" !"Wood" !"WorkBench_DZ" !"SurvivorW2_DZ"  !"Survivor1_DZ" !"Survivor2_DZ" !"Survivor3_DZ" !"Sniper1_DZ" !"Camo1_DZ" !"BanditW1_DZ" !"Bandit1_DZ" !"SurvivorW2_DZ" !"Soldier1_DZ"
+1 "Wood"!"WoodenArrowF" !"WoodFloorHalf_Preview_DZ" !"WoodFloor_Preview_DZ" !"WoodFloorQuarter_Preview_DZ"
 1 "VIL_" !"VIL_asistvan_DZE" !"VIL_octavia_civil2" !"VIL_kia_ceeddwa2"

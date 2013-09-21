@@ -1,2 +1,2 @@
 1 "" !"DZ_"
-1 "DZ_" !"DZ_Backpack_EP1" !"DZ_ALICE_Pack_EP1" !"DZ_TK_Assault_Pack_EP1" !"DZ_CivilBackpack_EP1" !"DZ_Patrol_Pack_EP1" !"DZ_Assault_Pack_EP1" !"DZ_British_ACU" !"DZ_GunBag_EP1" !"DZ_LargeGunBag_EP1"
+1 "DZ_" !"DZ_CompactPack_EP1" !"DZ_Backpack_EP1" !"DZ_ALICE_Pack_EP1" !"DZ_TK_Assault_Pack_EP1" !"DZ_CivilBackpack_EP1" !"DZ_Patrol_Pack_EP1" !"DZ_Assault_Pack_EP1" !"DZ_British_ACU" !"DZ_GunBag_EP1" !"DZ_LargeGunBag_EP1"
