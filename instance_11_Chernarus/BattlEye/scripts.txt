@@ -24,5 +24,4 @@
 5 "antiAggro_zeds"
 5 "zeus_star"
 5 "Metallica"
-1 "wasteland"
 5 "igodokxtt"
