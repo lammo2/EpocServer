@@ -10,19 +10,19 @@ menu_RU_Functionary1 = [
 menu_RU_Citizen3 = [
 	[["Assault Rifle Ammo",480],["Light Machine Gun Ammo",481],["Pistol Ammo",484],["Shotguns and Single-shot Ammo",573],["Sniper Rifle Ammo",482],["Submachine Gun Ammo",483]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // Weapons Friendly
 menu_Rocker4 = [
 	[["Assault Rifle",485],["Light Machine Gun",486],["Pistols",489],["Shotguns and Single-shot",574],["Sniper Rifle",487],["Submachine Guns",488]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // Friendly Vehicles
 menu_Profiteer4 = [
 	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Compact Cars",578],["Economy Cars",583],["Fuel Trucks",492],["Luxury Cars",581],["Microcars",584],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // General Store
 menu_Rita_Ensler_EP1 = [
@@ -58,7 +58,7 @@ menu_GUE_Soldier_MG = [
 menu_Worker2 = [
 	[["Airplanes",517],["Helicopter Unarmed",519]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // Vehicles Neutral
 menu_Worker3 = [
@@ -76,25 +76,25 @@ menu_Soldier_GL_M16A2_PMC = [
 menu_Woodlander1 = [
 	[["Building Supplies",530],["Toolbelt Items",532],["Vehicle Parts",531]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // Friendly Vehicles 2
 menu_UN_CDF_Soldier_Pilot_EP1 = [
 	[["Bikes and ATV",536],["Buses and Vans",592],["Cargo Trucks",570],["Compact Cars",593],["Economy Cars",594],["Fuel Trucks",595],["Luxury Cars",596],["Microcars",597],["Military Unarmed",599],["Trucks Unarmed",535],["Used Cars",600],["Utility Vehicles",568]],
 	[],
-	"friendly"
+	"neutral"
 ];
 // General Store 2
 menu_RU_WorkWoman1 = [
 	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemCopperBar","TrashJackDaniels",1,1,"buy","Empty Wiskey Bottle","Copper Bar",101]],
-	"friendly"
+	"neutral"
 ];
 // Medical Supplies
 menu_Dr_Annie_Baker_EP1 = [
 	[["Chem-lites/Flares",542],["Medical Supplies",541],["Smoke Grenades",543]],
 	[["FoodBioMeat","ItemZombieParts",1,1,"buy","Zombie Parts","Bio Meat",101]],
-	"friendly"
+	"neutral"
 ];
 // East Wholesaler
 menu_RU_Citizen4 = [
