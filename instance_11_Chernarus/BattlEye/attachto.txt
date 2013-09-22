@@ -1,4 +1,4 @@
-1 "" !"Shot" !"_DZ" !"VIL_" !"Preview" !"Fort_RazorWirePreview" !"VaultStorageLocked" !"TentStorageDomed2"
-1 "_DZ" !"Preview" !"DesertCamoNet_DZ" !"Generator_DZ" !"Sandbag1_DZ" !"MetalPanel_DZ" !"WoodShack_DZ" !"Wooden_shed_DZ" !"FuelPump_DZ" !"WorkBench_DZ" !"SurvivorW2_DZ"  !"Survivor1_DZ" !"Survivor2_DZ" !"Survivor3_DZ" !"Sniper1_DZ" !"Camo1_DZ" !"BanditW1_DZ" !"Bandit1_DZ" !"SurvivorW2_DZ" !"Soldier1_DZ"
-1 "VIL_" !"VIL_asistvan_DZE" !"VIL_octavia_civil2" !"VIL_kia_ceeddwa2" !"VIL_kia_ceed4"
-1 "Preview" !"CinderWallDoorway_Preview_DZ" !"CinderWallHalf_Preview_DZ" !"CinderWallSmallDoorway_Preview_DZ" !"WoodFloorHalf_Preview_DZ" !"WoodFloor_Preview_DZ" !"WoodFloorQuarter_Preview_DZ" !"WoodSmallWallThird_Preview_DZ" !"WoodStairsSans_Preview_DZ"
+1 "" !"Shot" !"_DZ" !"VIL_" !"Preview" !"Storage"
+1 "VIL_" !"VIL_asistvan_DZE" !"VIL_octavia_civil2" !"VIL_kia_ceeddwa2" !"VIL_kia_ceed4" !"VIL_smart_civil5" !"VIL_hilux1_civil"
+1 "Preview" !"_DZ" !"Fort_RazorWirePreview"
+1 "Storage" !"VaultStorageLocked" !"TentStorageDomed2" !"TentStorageDomed"
