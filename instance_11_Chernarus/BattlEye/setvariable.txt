@@ -4,7 +4,7 @@
 1 "wheel" !="wheel_1_1_steering" !="wheel_1_2_steering" !="wheel_1_3_steering" !="wheel_1_4_steering" !="wheel_2_1_steering" !="wheel_2_2_steering" !="wheel_2_3_steering" !="wheel_2_4_steering" !="hit_wheel_1_1_steering" !="hit_wheel_1_2_steering" !="hit_wheel_1_3_steering" !="hit_wheel_1_4_steering" !="hit_wheel_2_1_steering" !="hit_wheel_2_2_steering" !="hit_wheel_2_3_steering" !="hit_wheel_2_4_steering" !="hit_wheel_1_damper" !="hit_wheel_2_damper"
 1 "sklo" !="hit_sklo_p" !="hit_sklo_p1" !="hit_sklo_p2" !="hit_sklo_l1" !="hit_sklo predni p" !="hit_sklo predni l" !="hit_sklo_p3" !="hit_sklo_l2" !="hit_sklo_l3" !="hit_sklo_z" !="sklo_p" !="sklo_p1" !="sklo_p2" !="sklo_p3" !="sklo_l1" !="sklo_l2" !="sklo_l3" !="sklo_z" !="sklo predni p" !="sklo predni l"
 1 "svetlo" !="hit_p svetlo" !="hit_svetlo l" !="hit_l svetlo"
-1 "hit_levy" !="hit_levy predni tlumic" !="hit_levy zadni tlumic"
+1 "hit_levy" !="hit_levy predni tlumic" !="hit_levy zadni tlumic" !="hit_levy prostredni tlumic" !="pravy zadni tlumic"
 1 "glass" !="hit_glass1" !="hit_glass2" !="hit_glass3" !="hit_glass4" !="hit_glass5" !="hit_glass6" !="glass1" !="glass2" !="glass3" !="glass4" !="glass5" !="glass6"
 1 "usec_" !="usec_bloodqty" !="usec_injured" !="usec_inpain" !="usec_iscardiac" !="usec_lowblood" !="usec_isdead" !="usec_infected"
 1 "zombie" !="zombied" !="zombiespawn" !="zombiekills"
