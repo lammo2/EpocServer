@@ -19,7 +19,7 @@
 // -----------------------------------------------
 // enable or disable dynamic grid spawning
 // -----------------------------------------------
-SAR_dynamic_spawning = false;
+SAR_dynamic_spawning = true;
 
 // -----------------------------------------------
 // enable or disable the AI debug monitor
@@ -32,19 +32,19 @@ SAR_DEBUGMONITOR= false;
 // -----------------------------------------------
 
 // maximum number of groups / grid
-SAR_max_grps_bandits = 1;
-SAR_max_grps_soldiers = 1;
-SAR_max_grps_survivors = 1;
+SAR_max_grps_bandits = 0;
+SAR_max_grps_soldiers = 0;
+SAR_max_grps_survivors = 0;
 
 // chance for a group to spawn (1-100)
-SAR_chance_bandits = 75;
-SAR_chance_soldiers = 30;
-SAR_chance_survivors = 50;
+SAR_chance_bandits = 0;
+SAR_chance_soldiers = 0;
+SAR_chance_survivors = 0;
 
 // maximum size of group (including Leader)
-SAR_max_grpsize_bandits = 4;
-SAR_max_grpsize_soldiers = 5;
-SAR_max_grpsize_survivors = 4;
+SAR_max_grpsize_bandits = 0;
+SAR_max_grpsize_soldiers = 0;
+SAR_max_grpsize_survivors = 0;
 
 
 // -----------------------------------------------
@@ -123,7 +123,7 @@ SAR_AI_XP_ARMOR_3 = 0.3;        // values: 0 - 1, 1 = no change, 0.5 = damage ta
 // -----------------------------------------------
 
 // values: 0.1 - 1, 1 = no change, 0.5 = damage taken reduced by 50%, 0.1 = damage taken reduced by 90% -  EXPERIMENTAL
-SAR_leader_health_factor = 0.5;
+SAR_leader_health_factor = 1.0;
 
 // enable this for near invincible helicopters 
 SAR_heli_shield = false;
@@ -141,23 +141,23 @@ SAR_respawn_waittime = 90; // default 30 seconds
 // -----------------------------------------------
 
 // time after which DYNAMIC units and groups despawn after players have left the area/ dynamic grid
-SAR_DESPAWN_TIMEOUT = 120; // 2 minutes
+SAR_DESPAWN_TIMEOUT = 240; // 2 minutes
 
 // time after which dead AI bodies are deleted 
-SAR_DELETE_TIMEOUT = 120; // 2 minutes
+SAR_DELETE_TIMEOUT = 10; // 2 minutes
 
 // -----------------------------------------------
 // System performance 
 // -----------------------------------------------
 
 // the max range in meters within AI is detecting Zombies and player bandits and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE = 200;
+SAR_DETECT_HOSTILE = 500;
 
 // the max range in meters within AI is detecting player bandits from a vehicle, e.g. heli or land vehicle and makes them hostile - the bigger this value, the more CPU needed
 SAR_DETECT_HOSTILE_FROM_VEHICLE = 500;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
-SAR_DETECT_INTERVAL = 15;
+SAR_DETECT_INTERVAL = 10;
 
 // the interval in seconds that an AI scans for new hostiles from WITHIN a vehicle. The lower this value, the more accurate, but your server will see an impact. Recommended value: 5 
 SAR_DETECT_FROM_VEHICLE_INTERVAL = 5;
@@ -205,16 +205,16 @@ SAR_SHOW_XP_LVL = false;
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Efective distance for doing perfect ambush (max distance is this x2)
-KRON_UPS_ambushdist = 100;
+KRON_UPS_ambushdist = 150;
 
 //Frequency for doing calculations for each squad.
 KRON_UPS_Cycle = 10; //org 20 , try to adjust for server performance
 
 //Time that leader waits until doing another movement, this time reduced dynamically under fire, and on new targets
-KRON_UPS_react = 60;
+KRON_UPS_react = 30;
 
 //Min time to wait for doing another reaction
-KRON_UPS_minreact = 30; // org 30
+KRON_UPS_minreact = 20; // org 30
 
 //Max waiting is the maximum time patrol groups will wait when arrived to target for doing another target.
 KRON_UPS_maxwaiting = 60;
@@ -226,10 +226,10 @@ KRON_UPS_wp_maxwaiting = 120;
 KRON_UPS_alerttime = 90;
 
 // how close unit has to be to target to generate a new one target or to enter stealth mode
-KRON_UPS_closeenough = 100; // if you have vast plain areas, increase this to sth around 150-300 
+KRON_UPS_closeenough = 250; // if you have vast plain areas, increase this to sth around 150-300 
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
-KRON_UPS_sharedist = 200;
+KRON_UPS_sharedist = 350;
 
 // If enabled IA communication between them with radio defined sharedist distance, 0/2 
 // (must be set to 2 in order to use reinforcement !R)
@@ -254,7 +254,7 @@ KRON_UPS_Res_enemy = [east];
 //
 //                      2.5 -> easy
 //
-R_knowsAboutEnemy = 1.0;
+R_knowsAboutEnemy = 0.5;
 
 //
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -482,7 +482,7 @@ SAR_surv_leader_pistol_list = [];
 
 // potential item list for leaders -> Item / Chance 1 - 100
 SAR_surv_leader_items = [["ItemSodaCoke",75],["FoodCanBakedBeans",60]];
-SAR_surv_leader_tools =  [["ItemMap",50],["ItemCompass",30],["Binocular_Vector",5],["NVGoggles",5],["ItemRadio",100]];
+SAR_surv_leader_tools =  [["ItemMap",50],["ItemCompass",30]];
 
 //potential weapon list for riflemen
 SAR_surv_rifleman_weapon_list = ["M16A2","Winchester1866","AK_74","LeeEnfield","M1014"];
@@ -493,7 +493,7 @@ SAR_surv_rifleman_items = [["ItemSodaCoke",75],["FoodCanBakedBeans",60]];
 SAR_surv_rifleman_tools = [["ItemMap",50],["ItemCompass",30]];
 
 //potential weapon list for snipers
-SAR_surv_sniper_weapon_list = ["M4A1_Aim","SVD_CAMO","Huntingrifle"];
+SAR_surv_sniper_weapon_list = ["M4A1_Aim","Huntingrifle"];
 SAR_surv_sniper_pistol_list = [];   
 
 // potential item list for snipers
