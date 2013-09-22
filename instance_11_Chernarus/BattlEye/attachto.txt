@@ -1,4 +1,4 @@
 1 "" !"Shot" !"_DZ" !"VIL_" !"Preview" !"Storage"
 1 "VIL_" !"VIL_asistvan_DZE" !"VIL_octavia_civil2" !"VIL_kia_ceeddwa2" !"VIL_kia_ceed4" !"VIL_smart_civil5" !"VIL_hilux1_civil"
 1 "Preview" !"_DZ" !"Fort_RazorWirePreview"
-1 "Storage" !"VaultStorageLocked" !"TentStorageDomed2" !"TentStorageDomed"
+1 "Storage" !"VaultStorageLocked" !"TentStorageDomed2" !"TentStorageDomed" !"TentStorage"
