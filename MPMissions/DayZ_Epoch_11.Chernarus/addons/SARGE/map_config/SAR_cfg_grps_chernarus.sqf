@@ -309,6 +309,7 @@ diag_log format["SAR_AI: Static Spawning for infantry patrols started"];
 [SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
 [SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
 [SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
+[SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
 
 // example war scenario in the northwest. Comment OUT after having had a look at it!
 //[SAR_marker_DEBUG_veh,1,0,9,"patrol",true] call SAR_AI;
@@ -374,7 +375,7 @@ diag_log format["SAR_AI: Static Spawning for vehicle patrols started"];
             SAR_area_nwaf2,             // Name of the area that the vehicle patrol will spawn in
             1,                                  // type of group
             ["HMMWV_M1151_M2_CZ_DES_EP1","LandRover_Special_CZ_EP1"],             // used vehicles
-            [[1,1,1],[1,1,1]],                          // Vehicle initial crew
+            [[1,1,3],[1,1,3]],                          // Vehicle initial crew
             false                               // if this group should respawn or not
         ] call SAR_AI_land;
 
