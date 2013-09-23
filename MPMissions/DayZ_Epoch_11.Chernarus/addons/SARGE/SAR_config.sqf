@@ -144,20 +144,20 @@ SAR_respawn_waittime = 240; // default 30 seconds
 SAR_DESPAWN_TIMEOUT = 240; // 2 minutes
 
 // time after which dead AI bodies are deleted 
-SAR_DELETE_TIMEOUT = 2; // 2 minutes
+SAR_DELETE_TIMEOUT = 240; // 2 minutes
 
 // -----------------------------------------------
 // System performance 
 // -----------------------------------------------
 
 // the max range in meters within AI is detecting Zombies and player bandits and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE = 500;
+SAR_DETECT_HOSTILE = 350;
 
 // the max range in meters within AI is detecting player bandits from a vehicle, e.g. heli or land vehicle and makes them hostile - the bigger this value, the more CPU needed
 SAR_DETECT_HOSTILE_FROM_VEHICLE = 600;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
-SAR_DETECT_INTERVAL = 5;
+SAR_DETECT_INTERVAL = 15;
 
 // the interval in seconds that an AI scans for new hostiles from WITHIN a vehicle. The lower this value, the more accurate, but your server will see an impact. Recommended value: 5 
 SAR_DETECT_FROM_VEHICLE_INTERVAL = 5;
@@ -208,13 +208,13 @@ SAR_SHOW_XP_LVL = false;
 KRON_UPS_ambushdist = 150;
 
 //Frequency for doing calculations for each squad.
-KRON_UPS_Cycle = 10; //org 20 , try to adjust for server performance
+KRON_UPS_Cycle = 20; //org 20 , try to adjust for server performance
 
 //Time that leader waits until doing another movement, this time reduced dynamically under fire, and on new targets
 KRON_UPS_react = 20;
 
 //Min time to wait for doing another reaction
-KRON_UPS_minreact = 20; // org 30
+KRON_UPS_minreact = 30; // org 30
 
 //Max waiting is the maximum time patrol groups will wait when arrived to target for doing another target.
 KRON_UPS_maxwaiting = 60;
@@ -226,7 +226,7 @@ KRON_UPS_wp_maxwaiting = 120;
 KRON_UPS_alerttime = 90;
 
 // how close unit has to be to target to generate a new one target or to enter stealth mode
-KRON_UPS_closeenough = 250; // if you have vast plain areas, increase this to sth around 150-300 
+KRON_UPS_closeenough = 150; // if you have vast plain areas, increase this to sth around 150-300 
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
 KRON_UPS_sharedist = 500;
@@ -535,4 +535,4 @@ SAR_band_sniper_tools = [["ItemMap",50],["ItemCompass",30],["Binocular_Vector",1
 
 // define the type of heli(s) you want to use here for the heli patrols - make sure you include helis that have minimum 2 gunner positions, anything else might fail
 //SAR_heli_type=["UH1H_DZ","Mi17_DZ"];
-SAR_heli_type=["AH64D_EP1"];
+SAR_heli_type=["Mi17_DZ"];
