@@ -103,10 +103,10 @@ if (SAR_dynamic_spawning) then {
     [["max_grps","rnd_grps","max_p_grp"],[[0,3,0],[0,75,0],[0,4,4]],"SAR_area_5_5"] call SAR_AI_mon_upd; 
 
     // NWAF, 0 bandit groups, 2 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    //[["max_grps","rnd_grps","max_p_grp"],[[0,2,1],[0,50,75],[0,2,4]],"SAR_area_1_4"] call SAR_AI_mon_upd; 
+    [["max_grps","rnd_grps","max_p_grp"],[[0,3,1],[0,100,75],[0,4,4]],"SAR_area_1_4"] call SAR_AI_mon_upd; 
 
     // Stary, 3 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    //[["max_grps","rnd_grps","max_p_grp"],[[3,0,3],[50,0,50],[3,0,3]],"SAR_area_2_2"] call SAR_AI_mon_upd; 
+    [["max_grps","rnd_grps","max_p_grp"],[[0,0,3],[0,0,50],[0,0,3]],"SAR_area_2_2"] call SAR_AI_mon_upd; 
 
     // Devils Castle, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     //[["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_2_4"] call SAR_AI_mon_upd; 
@@ -304,12 +304,12 @@ diag_log format["SAR_AI: Static Spawning for infantry patrols started"];
 //
 // define your static infantry patrols here
 //
-[SAR_area_nwaf1,1,3,5,"fortify",false] call SAR_AI;
-[SAR_area_nwaf1,1,3,5,"fortify",false] call SAR_AI;
-[SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
-[SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
-[SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
-[SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
+//[SAR_area_nwaf1,1,3,5,"fortify",false] call SAR_AI;
+//[SAR_area_nwaf1,1,3,5,"fortify",false] call SAR_AI;
+//[SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
+//[SAR_area_nwaf1,1,1,5,"patrol",false] call SAR_AI;
+//[SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
+//[SAR_area_nwaf1,1,1,3,"ambush",false] call SAR_AI;
 
 // example war scenario in the northwest. Comment OUT after having had a look at it!
 //[SAR_marker_DEBUG_veh,1,0,9,"patrol",true] call SAR_AI;
@@ -371,15 +371,15 @@ diag_log format["SAR_AI: Static Spawning for vehicle patrols started"];
 // define your static vehicle patrols here
 //
 //nwaf
-        [
-            SAR_area_nwaf2,             // Name of the area that the vehicle patrol will spawn in
-            1,                                  // type of group
-            ["HMMWV_M1151_M2_CZ_DES_EP1","LandRover_Special_CZ_EP1"],             // used vehicles
-            [[1,1,3],[1,1,3]],                          // Vehicle initial crew
-            false                               // if this group should respawn or not
-        ] call SAR_AI_land;
-
-
+//        [
+//           SAR_area_nwaf2,             // Name of the area that the vehicle patrol will spawn in
+//            1,                                  // type of group
+//            ["HMMWV_M1151_M2_CZ_DES_EP1","LandRover_Special_CZ_EP1"],             // used vehicles
+//            [[1,1,3],[1,1,3]],                          // Vehicle initial crew
+//            false                               // if this group should respawn or not
+//        ] call SAR_AI_land;
+//
+//
 diag_log format["SAR_AI: Static Spawning for vehicle patrols finished"];
 // ---- end of configuration area ----
 
