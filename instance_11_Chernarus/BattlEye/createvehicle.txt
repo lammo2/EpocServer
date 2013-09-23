@@ -4,7 +4,7 @@
 1 "Smoke" !"40mm" !="SmokeShell" !="SmokeShellRed" !="SmokeShellGreen"
 1 "Cow" !="Cow01" !="Cow02" !="Cow03" !="Cow04" !="Cow01_EP1"
 1 "z_" !"CZ_" !"DZ_" !"pz_" !"_DZ" !="z_villager1" !="z_new_villager2" !="z_villager2" !="z_new_villager3" !="z_villager3" !="z_new_villager4" !="z_worker1" !="z_new_worker2" !="z_worker2" !="z_new_worker3" !="z_worker3" !="z_new_worker4" !="z_teacher" !="z_hunter" !="z_suit1" !="z_suit2" !="z_soldier" !="z_soldier_pilot" !="z_soldier_heavy" !="z_policeman" !="z_doctor" !="z_priest"
-1 "pz_" !="pz_villager2" !="pz_policeman" !="pz_hunter" !="pz_worker2" !="pz_suit2" !="pz_priest"
+1 "pz_" !="pz_villager2" !="pz_policeman" !="pz_hunter" !="pz_worker2" !="pz_suit2" !="pz_priest" !="pz_villager1" !="pz_villager3"
 1 "WeaponHolder" !="WeaponHolder" !="WeaponHolder_ItemTentDomed2" !="WeaponHolder_ItemMachete" !="WeaponHolder_MeleeCrowbar" !="WeaponHolder_ItemTent" !="WeaponHolder_ItemHatchet" !="WeaponHolder_ItemCrowbar" !="WeaponHolder_ItemFuelcan" !="WeaponHolder_ItemJerrycan" !="WeaponHolder_PartGlass" !="WeaponHolder_PartWheel" !="WeaponHolder_PartGeneric" !="WeaponHolder_PartFueltank" !="WeaponHolder_PartVRotor" !="WeaponHolder_PartEngine" !="WeaponHolder_ItemVault" !="WeaponHolder_ItemTentOld"
 1 "Preview" !"_DZ" !="Fort_RazorWirePreview" !="Land_HBarrier1Preview"
 1 "Parachute" !="ParachuteWest" 
