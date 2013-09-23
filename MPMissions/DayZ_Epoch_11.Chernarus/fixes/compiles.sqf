@@ -807,5 +807,5 @@ if (!isDedicated) then {
 	
 	
 	//Start Dynamic Weather
-	execVM "fixes\DynamicWeatherEffects.sqf;
+	//execVM "fixes\DynamicWeatherEffects.sqf;
 	initialized = true;
