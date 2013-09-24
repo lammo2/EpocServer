@@ -50,7 +50,7 @@ SAR_max_grpsize_survivors = 4;
 // -----------------------------------------------
 // run fix for the issue that bandits cant travel in a vehicle with survivors EXPERIMENTAL, might not work 100% 
 // -----------------------------------------------
-SAR_FIX_VEHICLE_ISSUE = true;
+SAR_FIX_VEHICLE_ISSUE = false;
 
 // -----------------------------------------------
 // modify AI behaviour
@@ -73,7 +73,7 @@ SAR_surv_kill_value = 100;
 SAR_band_kill_value = 50;
 
 // the humanity value below which a player will be considered hostile
-SAR_HUMANITY_HOSTILE_LIMIT = -2500;
+SAR_HUMANITY_HOSTILE_LIMIT = -5000;
 
 // -----------------------------------------------
 // Track and show AI kills in the debug monitor of the player 
