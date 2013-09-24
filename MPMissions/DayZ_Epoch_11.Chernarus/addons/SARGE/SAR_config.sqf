@@ -151,13 +151,13 @@ SAR_DELETE_TIMEOUT = 240; // 2 minutes
 // -----------------------------------------------
 
 // the max range in meters within AI is detecting Zombies and player bandits and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE = 350;
+SAR_DETECT_HOSTILE = 500;
 
 // the max range in meters within AI is detecting player bandits from a vehicle, e.g. heli or land vehicle and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE_FROM_VEHICLE = 600;
+SAR_DETECT_HOSTILE_FROM_VEHICLE = 800;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
-SAR_DETECT_INTERVAL = 15;
+SAR_DETECT_INTERVAL = 10;
 
 // the interval in seconds that an AI scans for new hostiles from WITHIN a vehicle. The lower this value, the more accurate, but your server will see an impact. Recommended value: 5 
 SAR_DETECT_FROM_VEHICLE_INTERVAL = 5;
@@ -229,7 +229,7 @@ KRON_UPS_alerttime = 90;
 KRON_UPS_closeenough = 150; // if you have vast plain areas, increase this to sth around 150-300 
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
-KRON_UPS_sharedist = 500;
+KRON_UPS_sharedist = 600;
 
 // If enabled IA communication between them with radio defined sharedist distance, 0/2 
 // (must be set to 2 in order to use reinforcement !R)
@@ -535,4 +535,4 @@ SAR_band_sniper_tools = [["ItemMap",50],["ItemCompass",30],["Binocular_Vector",1
 
 // define the type of heli(s) you want to use here for the heli patrols - make sure you include helis that have minimum 2 gunner positions, anything else might fail
 //SAR_heli_type=["UH1H_DZ","Mi17_DZ"];
-SAR_heli_type=["Mi17_DZ"];
+SAR_heli_type=["UH1Y_DZ"];
