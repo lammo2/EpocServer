@@ -28,15 +28,19 @@ server_spawnEvents =			compile preprocessFileLineNumbers "\z\addons\dayz_server\
 
 fnc_plyrHit   = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\fnc_plyrHit.sqf";
 server_deaths = 			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_playerDeaths.sqf";
-spawn_ZubMilitaryBase = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\ZubMilitaryBase.sqf";
-spawn_NWAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\NWAF.sqf";
-spawn_NEAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\NEAF.sqf";
-spawn_BolataCastle = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\BolataCastle.sqf";
-spawn_balotoAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\balotoAF.sqf";
-spawn_cap_golova = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\cap_golova.sqf";
-spawn_electro = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\electro.sqf";
-spawn_stary = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\stary.sqf";
-spawn_BlackMarket = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\BlackMarket.sqf";
+
+spawn_cap_golova = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\cap_golova.sqf";
+spawn_electro = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\electro.sqf";
+spawn_Stary = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\Stary.sqf";
+spawn_ZubMilitaryBase = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\ZubMilitaryBase.sqf";
+spawn_NWAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\NWAF.sqf";
+spawn_NEAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\NEAF.sqf";
+spawn_BolataCastle = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\BolataCastle.sqf";
+spawn_balotoAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\balotoAF.sqf";
+spawn_SkalistyIsland = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\SkalistyIsland.sqf";
+spawn_WeaponCache = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\WeaponCache.sqf";
+spawn_Addedbuildings = compile preprocessFileLineNumbers ""\z\addons\dayz_server\compile\buildings\Addedbuildings.sqf";
+spawn_BlackMarket = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\BlackMarket.sqf";
 
 
 vehicle_handleInteract = {
