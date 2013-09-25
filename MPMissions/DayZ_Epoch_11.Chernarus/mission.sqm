@@ -1364,7 +1364,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonebash_safezone";
-			expCond="(player distance zonebash_safezone) < 150;";
+			expCond="(player distance zonebash_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1380,7 +1380,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zoneklen_safezone";
-			expCond="(player distance zoneklen_safezone) < 150;";
+			expCond="(player distance zoneklen_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1396,7 +1396,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonestary_safezone";
-			expCond="(player distance zonestary_safezone) < 150;";
+			expCond="(player distance zonestary_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1412,7 +1412,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="bandit_safezone";
-			expCond="(player distance bandit_safezone) < 150;";
+			expCond="(player distance bandit_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1428,7 +1428,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="Hero_safezone";
-			expCond="(player distance Hero_safezone) < 150;";
+			expCond="(player distance Hero_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1444,7 +1444,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="Aircraft_safezone";
-			expCond="(player distance Aircraft_safezone) < 50;";
+			expCond="(player distance Aircraft_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1460,7 +1460,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="BlackMarket_safezone";
-			expCond="(player distance BlackMarket_safezone) < 50;";
+			expCond="(player distance BlackMarket_safezone) < 25;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
