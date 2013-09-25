@@ -1,6 +1,6 @@
 5 "compile"
 5 "loadFile"
-5 "call" !="dog_callBack" !="remExField" = [,,"say",["dog_callBack",120]]"
+5 "call" !="dog_callBack" !=""remExField" = [,,"say",["dog_callBack",120]]"
 5 "mission"
 5 "enable"
 5 "spawn"  !="_this spawn fnc_plyrHit;"
@@ -249,18 +249,16 @@
 5 "createdialog"
 5 "+" !"e+00"
 5 ";"
-5 "{"
 5 "(" !"TELEPORT REVERT"
 5 "&"
 5 "%"
-5 "'"
 5 actionmonitor
 5 bis_
 5 building_spawnloot
 5 building_spawnzombies
 5 camp_spawnzombies
 5 dayz
-5 dog_
+5 dog_ !=""remExField" = [<NULL-object>,<NULL-object>,"switchmove","Dog_SitDown"]" !=""remExField" = [,<NULL-object>,"say",["z_dog_bark_0",40]]" !="remExField" = [,<NULL-object>,"say",["dog_callBack",120]]
 5 drn_
 5 eh_localcleanup
 5 fnc_
