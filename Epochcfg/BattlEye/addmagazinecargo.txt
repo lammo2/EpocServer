@@ -8,7 +8,7 @@
 1 "Bar" !"Barr" !"crowbar" !="ItemAluminumBar"  !="ItemGoldBar10oz" !="ItemGoldBar" !="ItemCopperBar" !="ItemCopperBar10oz" !="ItemSilverBar" !="ItemSilverBar10oz" !="ItemTinBar"
 1 "Tent" !="ItemTentOld" !="ItemTentDomed" !="ItemTent" !="ItemTentDomed2"
 1 "Part" !"Wood" !"Item" !="PartPlankPack" !="PartEngine" !="PartGeneric" !="PartWheel" !="PartVRotor" !="PartFueltank" !="PartGlass" !="bulk_PartGeneric"
-1 "Wood" !"_kit" !="WoodenArrow" !="PartWoodPlywood" !="PartPlywoodPack" !="PartWoodLumber" !="PartWoodPile" !="ItemWoodWallThird" !="ItemWoodFloorQuarter" !="ItemWoodFloorHalf" !="ItemWoodWallWithDoorLgLocked" !="ItemWoodWallLg"
+1 "Wood" !"_kit" !="WoodenArrow" !="PartWoodPlywood" !="PartPlywoodPack" !="PartWoodLumber" !="PartWoodPile" !="ItemWoodWallThird" !="ItemWoodFloorQuarter" !="ItemWoodFloorHalf" !="ItemWoodWallWithDoorLgLocked" !="ItemWoodWallLg" !="ItemWoodWallWindowLg"
 1 "Smoke" !"Rnd_" !="SmokeShell" !="SmokeShellRed" !="SmokeShellGreen"
 1 "00Rnd_" !="100Rnd_762x51_M240" !="200Rnd_556x45_M249" !="100Rnd_762x54_PK" !="200Rnd_762x51_M240" !="100Rnd_556x45_BetaCMag"
 1 "0Rnd_" !"00Rnd_" !="20Rnd_556x45_Stanag" !="30Rnd_9x19_UZI_SD" !="20Rnd_B_765x17_Ball" !="10Rnd_127x99_m107" !="20Rnd_762x51_FNFAL" !="10Rnd_762x54_SVD" !="30Rnd_9x19_UZI" !="30Rnd_762x39_SA58" !="30Rnd_9x19_MP5SD" !="30Rnd_556x45_G36" !="30Rnd_556x45_StanagSD" !="30Rnd_556x45_Stanag" !="30Rnd_545x39_AK" !="30Rnd_762x39_AK47" !="30Rnd_9x19_MP5" !="20Rnd_762x51_DMR" !="30Rnd_556x45_G36SD" !="20Rnd_762x51_SB_SCAR" !="20Rnd_B_AA12_Pellets" !="20Rnd_762x51_B_SCAR" !="30Rnd_545x39_AKSD"
