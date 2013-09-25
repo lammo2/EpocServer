@@ -8,7 +8,7 @@
 1 "WeaponHolder" !="WeaponHolder" !="WeaponHolder_ItemTentDomed2" !="WeaponHolder_ItemMachete" !="WeaponHolder_MeleeCrowbar" !="WeaponHolder_ItemTent" !="WeaponHolder_ItemHatchet" !="WeaponHolder_ItemCrowbar" !="WeaponHolder_ItemFuelcan" !="WeaponHolder_ItemJerrycan" !="WeaponHolder_PartGlass" !="WeaponHolder_PartWheel" !="WeaponHolder_PartGeneric" !="WeaponHolder_PartFueltank" !="WeaponHolder_PartVRotor" !="WeaponHolder_PartEngine" !="WeaponHolder_ItemVault" !="WeaponHolder_ItemTentOld"
 1 "Preview" !"_DZ" !="Fort_RazorWirePreview" !="Land_HBarrier1Preview"
 1 "Parachute" !="ParachuteWest" 
-1 "Box" !="MedBox0" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox"
+1 "Box" !="MedBox0" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox" !="LockboxStorageLocked" !="LockboxStorage"
 1 "40mm" !="G_40mm_HE" !="G_40mm_Smoke" !="F_40mm_White" !="F_40mm_Green"
 1 "GUE_" !"_DZ"
 1 "Survivor" !"_DZ"
