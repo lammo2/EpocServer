@@ -39,7 +39,7 @@ spawn_BolataCastle = compile preprocessFileLineNumbers "\z\addons\dayz_server\co
 spawn_balotoAF = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\balotoAF.sqf";
 spawn_SkalistyIsland = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\SkalistyIsland.sqf";
 spawn_WeaponCache = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\WeaponCache.sqf";
-spawn_Addedbuildings = compile preprocessFileLineNumbers ""\z\addons\dayz_server\compile\buildings\Addedbuildings.sqf";
+spawn_Addedbuildings = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\Addedbuildings.sqf";
 spawn_BlackMarket = compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\buildings\BlackMarket.sqf";
 
 
