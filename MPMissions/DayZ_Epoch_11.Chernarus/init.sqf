@@ -105,14 +105,7 @@ if (!isDedicated) then {
 	//Lights
 	//[17,6,true,false,true,true,72,242,600,10,[0.698, 0.556, 0.419],"Generator_DZ",208,"",0.5] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
 };
-// UPSMON
-call compile preprocessFileLineNumbers "addons\UPSMON\scripts\Init_UPSMON.sqf";
 
-// SHK 
-call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
-
-// run SAR_AI
-[] execVM "addons\SARGE\SAR_AI_init.sqf";
 
 #include "\z\addons\dayz_code\system\REsec.sqf"
 // Run SafeZones
