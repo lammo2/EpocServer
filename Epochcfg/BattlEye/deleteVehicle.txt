@@ -5,5 +5,5 @@
 1 "_EP1" !"Fort_Barricade_EP1" !"Land_Misc_Garb_Heap_EP1" !"Ural_TK_CIV_EP1"
 1 "VIL_" !"VIL_panda_civil" !"VIL_passat_civil" !"VIL_Star_S2000" !"VIL_asistvan_DZE" !"VIL_hilux1_police" !"VIL_citrone_civil3"
 1 "SUV" !"SUV_Yellow" !"SUV_Camo"
-1 "Storage" !"TentStorageDomed2" !"VaultStorageLocked" !"VaultStorage" !"LockboxStorageLocked"
+1 "Storage" !"TentStorageDomed2" !"VaultStorageLocked" !"VaultStorage" !"LockboxStorageLocked" !"TentStorageDomed"
 1 "Land_CncBlock_D"
