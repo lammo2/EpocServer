@@ -1,2 +1,2 @@
 1 "" !"pz_" !"_DZ"
-1 "pz_" !"pz_priest" !"pz_policeman" !"pz_hunter" !"pz_worker2" !"pz_suit2" !"pz_villager1" !"pz_villager3" !"pz_doctor" !"pz_worker3" !"pz_teacher"
+1 "pz_" !"pz_priest" !"pz_policeman" !"pz_hunter" !"pz_worker2" !"pz_suit2" !"pz_villager1" !"pz_villager3" !"pz_doctor" !"pz_worker3" !"pz_teacher" !"pz_villager2"
