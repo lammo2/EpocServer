@@ -329,6 +329,20 @@ if (isServer and isNil "sm_done") then {
 		OldHeliCrash = false;
 	};
 
+	// Spawn added buildings. should spawn in before players allowed to connect
+	_scap_golova = [] call spawn_cap_golova;
+	_selectro = [] call spawn_electro;
+	_sStary = [] call spawn_Stary;
+	_sZubMilitaryBase = [] call spawn_ZubMilitaryBase;
+	_sNWAF = [] call spawn_NWAF;
+	_sNEAF = [] call spawn_NEAF;
+	_sBolataCastle = [] call spawn_BolataCastle;
+	_sbalotoAF = [] call spawn_balotoAF;
+	_sBlackMarket = [] call spawn_BlackMarket;
+	_sAddedbuildings = [] call spawn_Addedbuildings;
+	_sWeaponCache = [] call spawn_WeaponCache;
+	_sSkalistyIsland = [] call spawn_SkalistyIsland;
+	
 	allowConnection = true;
 
 	// [_guaranteedLoot, _randomizedLoot, _frequency, _variance, _spawnChance, _spawnMarker, _spawnRadius, _spawnFire, _fadeFire]
@@ -342,19 +356,6 @@ if (isServer and isNil "sm_done") then {
 		// server cleanup
 		_id = [] execFSM "\z\addons\dayz_server\system\server_cleanup.fsm";
 	};
-	// Spawn added buildings
-	_scap_golova = [] call spawn_cap_golova;
-	_selectro = [] call spawn_electro;
-	_sStary = [] call spawn_Stary;
-	_sZubMilitaryBase = [] call spawn_ZubMilitaryBase;
-	_sNWAF = [] call spawn_NWAF;
-	_sNEAF = [] call spawn_NEAF;
-	_sBolataCastle = [] call spawn_BolataCastle;
-	_sbalotoAF = [] call spawn_balotoAF;
-	_sBlackMarket = [] call spawn_BlackMarket;
-	_sAddedbuildings = [] call spawn_Addedbuildings;
-	_sWeaponCache = [] call spawn_WeaponCache;
-	_sSkalistyIsland = [] call spawn_SkalistyIsland;
 	
 	sm_done = true;
 	publicVariable "sm_done";
