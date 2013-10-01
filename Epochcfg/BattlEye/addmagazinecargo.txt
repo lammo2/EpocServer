@@ -21,4 +21,4 @@
 5 "Flare" !"Hand" !="FlareWhite_M203" !="FlareGreen_M203"
 5 "Hand" !="ItemSledgeHandle" !="HandRoadFlare" !="HandChemRed" !="HandChemGreen" !="HandChemBlue" !="HandGrenade_West" !="HandGrenade_East"
 5 "_Swing" !="Hatchet_Swing" "Fishing_Swing" !="Crowbar_swing" !="Fishing_Swing"
-5 "_kit" !="cinder_wall_kit" !="cinder_garage_kit" !="workbench_kit" !="metal_panel_kit" !="cinder_door_kit" !="wood_shack_kit" !="metal_floor_kit" !="stick_fence_kit" !="desert_net_kit" !="sandbag_nest_kit"
+5 "_kit" !="cinder_wall_kit" !="cinder_garage_kit" !="workbench_kit" !="metal_panel_kit" !="cinder_door_kit" !="wood_shack_kit" !="metal_floor_kit" !="stick_fence_kit" !="desert_net_kit" !="sandbag_nest_kit" !="30m_plot_kit"
