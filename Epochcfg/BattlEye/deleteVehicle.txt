@@ -1,6 +1,6 @@
 1 "" !"" !"WeaponHolder" !"z_" !"Wreck" !"_EP1" !"VIL_" !"SUV" !"Storage" !"_DZ" !"DZ_" !"zZombie_Base" !"WoodenArrowF" !"Rabbit" !"Zodiac" !"Rubbish2" !"Shot"
 1 "WeaponHolder_" !"WeaponHolder_ItemMachete" !"WeaponHolder_MeleeCrowbar" !"WeaponHolder_PartWheel" !"WeaponHolder_PartGlass" !"WeaponHolder_PartVRotor" !"WeaponHolder_PartEngine" !"WeaponHolder_PartGeneric" !"WeaponHolder_PartFueltank" !"WeaponHolder_ItemTent" !"WeaponHolder_ItemCrowbar" !"WeaponHolder_ItemHatchet" !"WeaponHolder_ItemFuelcan" !"WeaponHolder_ItemJerrycan"
-1 "z_" !"DZ_" !"z_villager1" !"z_new_villager2" !"z_villager2" !"z_new_villager3" !"z_villager3" !"z_new_villager4" !"z_worker1" !"z_new_worker2" !"z_worker2" !"z_new_worker3" !"z_worker3" !"z_new_worker4" !"z_teacher" !"z_hunter" !"z_suit1" !"z_suit2" !"z_soldier" !"z_soldier_pilot" !"z_soldier_heavy" !"z_policeman" !"z_doctor" !"z_priest"
+1 "z_" !"DZ_" !"GAZ_Vodnik" !"z_villager1" !"z_new_villager2" !"z_villager2" !"z_new_villager3" !"z_villager3" !"z_new_villager4" !"z_worker1" !"z_new_worker2" !"z_worker2" !"z_new_worker3" !"z_worker3" !"z_new_worker4" !"z_teacher" !"z_hunter" !"z_suit1" !"z_suit2" !"z_soldier" !"z_soldier_pilot" !"z_soldier_heavy" !"z_policeman" !"z_doctor" !"z_priest"
 1 "Wreck" !"SKODAWreck" !"datsun01Wreck" !"HMMWVWreck" !"UAZWreck" !"datsun02Wreck" !"UralWreck" !"hiluxWreck"
 1 "_EP1" !"Fort_Barricade_EP1" !"Land_Misc_Garb_Heap_EP1" !"Ural_TK_CIV_EP1"
 1 "VIL_" !"VIL_panda_civil" !"VIL_passat_civil" !"VIL_Star_S2000" !"VIL_asistvan_DZE" !"VIL_hilux1_police" !"VIL_citrone_civil3" !"VIL_fobia_civil3"
