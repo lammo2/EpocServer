@@ -3,7 +3,7 @@
 1 "z_" !"DZ_" !"CZ_" !"GAZ_Vodnik" !"z_villager1" !"z_new_villager2" !"z_villager2" !"z_new_villager3" !"z_villager3" !"z_new_villager4" !"z_worker1" !"z_new_worker2" !"z_worker2" !"z_new_worker3" !"z_worker3" !"z_new_worker4" !"z_teacher" !"z_hunter" !"z_suit1" !"z_suit2" !"z_soldier" !"z_soldier_pilot" !"z_soldier_heavy" !"z_policeman" !"z_doctor" !"z_priest"
 1 "Wreck" !"SKODAWreck" !"datsun01Wreck" !"HMMWVWreck" !"UAZWreck" !"datsun02Wreck" !"UralWreck" !"hiluxWreck"
 1 "_EP1" !"Fort_Barricade_EP1" !"Land_Misc_Garb_Heap_EP1" !"Ural_TK_CIV_EP1" !"LandRover_CZ_EP1"
-1 "VIL_" !"VIL_panda_civil" !"VIL_passat_civil" !"VIL_Star_S2000" !"VIL_asistvan_DZE" !"VIL_hilux1_police" !"VIL_citrone_civil3" !"VIL_fobia_civil3"
+1 "VIL_" !"VIL_panda_civil" !"VIL_passat_civil" !"VIL_Star_S2000" !"VIL_asistvan_DZE" !"VIL_hilux1_police" !"VIL_citrone_civil3" !"VIL_fobia_civil3" !"VIL_octavia_civil"
 1 "SUV" !"SUV_Yellow" !"SUV_Camo"
 1 "Storage" !"TentStorageDomed2" !"VaultStorageLocked" !"VaultStorage" !"LockboxStorageLocked" !"TentStorageDomed" !"TentStorage"
 1 "Land_CncBlock_D"

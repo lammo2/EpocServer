@@ -23,4 +23,4 @@
 5 "Flare" !"bulk_" !"Hand" !="FlareWhite_M203" !="FlareGreen_M203"
 5 "Hand" !"bulk_" !"Item" !="HandRoadFlare" !="HandChemRed" !="HandChemGreen" !="HandChemBlue" !="HandGrenade_West" !="HandGrenade_East"
 1 "_Swing" !"bulk_" !="Hatchet_Swing" !="Crowbar_swing" !="Fishing_Swing" !="Machete_Swing"
-1 "_kit" !"bulk_" !="cinder_wall_kit" !="cinder_garage_kit" !="workbench_kit" !="metal_panel_kit" !="cinder_door_kit" !="wood_shack_kit" !="metal_floor_kit" !="stick_fence_kit" !="desert_net_kit" !="sandbag_nest_kit" !="30m_plot_kit" !="storage_shed_kit"
+1 "_kit" !"bulk_" !="cinder_wall_kit" !="cinder_garage_kit" !="workbench_kit" !="metal_panel_kit" !="cinder_door_kit" !="wood_shack_kit" !="metal_floor_kit" !="stick_fence_kit" !="desert_net_kit" !="sandbag_nest_kit" !="30m_plot_kit" !="storage_shed_kit" !="deer_stand_kit"
