@@ -20,10 +20,10 @@ enableRadio false;
 // DayZ Epoch config
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
-MaxHeliCrashes= 8; // Default = 5
+MaxHeliCrashes= 10; // Default = 5
 MaxVehicleLimit = 350; // Default = 50
 MaxDynamicDebris = 500; // Default = 100
-dayz_MapArea = 14000; // Default = 10000
+dayz_MapArea = 12000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30 
 dayz_tameDogs = true;
 
