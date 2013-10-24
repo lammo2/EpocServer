@@ -14,16 +14,16 @@ if (!isDedicated) then {
 	player_zombieAttack = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_zombieAttack.sqf";	//Run on a players computer, causes a nearby zombie to attack them
 	fnc_usec_damageActions =	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_damageActions.sqf";		//Checks which actions for nearby casualty
 	fnc_inAngleSector =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_inAngleSector.sqf";		//Checks which actions for nearby casualty
-	fnc_usec_selfActions =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_selfActions.sqf";		//Checks which actions for self
+	fnc_usec_selfActions =		compile preprocessFileLineNumbers "Fixes\fn_selfActions.sqf";		//Checks which actions for self
 	fnc_usec_unconscious =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_unconscious.sqf";
 	player_temp_calculation	=	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_temperatur.sqf";		//Temperatur System	//TeeChange
 	player_weaponFiredNear =	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_weaponFiredNear.sqf";
 	player_animalCheck =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_animalCheck.sqf";
-	player_spawnCheck = 		compile preprocessFileLineNumbers "fixes\player_spawnCheck.sqf";
+	player_spawnCheck = 		compile preprocessFileLineNumbers "Fixes\player_spawnCheck.sqf";
 	player_dumpBackpack = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_dumpBackpack.sqf";
 	// player_spawnLootCheck =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_spawnlootCheck.sqf";
 	// player_spawnZedCheck =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_spawnzedCheck.sqf";
-	building_spawnLoot = 			compile preprocessFileLineNumbers "Fixes\building_spawnLoot.sqf";
+	building_spawnLoot =		compile preprocessFileLineNumbers "Fixes\building_spawnLoot.sqf";
 	// player_taskHint =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_taskHint.sqf";
 	building_spawnZombies =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\building_spawnZombies.sqf";
 	//animal_monitor =			compile preprocessFileLineNumbers "\z\addons\dayz_code\system\animal_monitor.sqf";
@@ -33,7 +33,7 @@ if (!isDedicated) then {
 	player_packVault =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_packVault.sqf";
 	player_unlockVault =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_unlockVault.sqf";
 	
-	player_unlockDoor =		compile preprocessFileLineNumbers "fixes\player_unlockDoor.sqf";
+	player_unlockDoor =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_unlockDoor.sqf";
 	player_changeCombo =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_changeCombo.sqf";
 	
 	player_lockVault =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_lockVault.sqf";
@@ -55,7 +55,7 @@ if (!isDedicated) then {
 	player_throwObject = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_throwObject.sqf";
 	player_alertZombies = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_alertZombies.sqf";
 	player_fireMonitor = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\system\fire_monitor.sqf";
-	player_friendliesCheck =	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_friendliesCheck.sqf";
+	fn_gearMenuChecks =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_gearMenuChecks.sqf";
 	
 	//Objects
 	object_roadFlare = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\object_roadFlare.sqf";
@@ -65,9 +65,12 @@ if (!isDedicated) then {
 	//Zombies
 	zombie_findTargetAgent = 	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\zombie_findTargetAgent.sqf";
 	zombie_loiter = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\zombie_loiter.sqf";			//Server compile, used for loiter behaviour
-	zombie_generate =    		compile preprocessFileLineNumbers "Fixes\zombie_generate.sqf";			//Server compile, used for loiter behaviour
+	zombie_generate = 			compile preprocessFileLineNumbers "Fixes\zombie_generate.sqf";			//Server compile, used for loiter behaviour
 	wild_spawnZombies = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\wild_spawnZombies.sqf";			//Server compile, used for loiter behaviour
 	
+	pz_attack = 	compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\pzombie\pz_attack.sqf";
+	
+
 	//
 	dog_findTargetAgent = 	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\dog_findTargetAgent.sqf";
 	
@@ -99,12 +102,14 @@ if (!isDedicated) then {
 	object_pickup = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\object_pickup.sqf";
 	player_flipvehicle = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_flipvehicle.sqf";
 	player_sleep = 				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_sleep.sqf";
+	player_mineOre =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_mineOre.sqf";
 	
 	//ui
 	player_selectSlot =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\ui_selectSlot.sqf";
 	player_gearSync	=			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_gearSync.sqf";
 	player_gearSet	=			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_gearSet.sqf";
 	ui_changeDisplay = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\ui_changeDisplay.sqf";
+	ui_gear_sound =             compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\ui_gear_sound.sqf";
 	
 	//System
 	player_monitor =			compile preprocessFileLineNumbers "\z\addons\dayz_code\system\player_monitor.sqf";
@@ -259,62 +264,107 @@ if (!isDedicated) then {
 	dayz_spaceInterrupt = {
 		private ["_dikCode", "_handled"];
 		_dikCode = 	_this select 1;
+		
 		_handled = false;
+
+		if (_dikCode in[0x58,0x57,0x44,0x43,0x42,0x41,0x40,0x3F,0x3E,0x3D,0x3C,0x3B,0x0B,0x0A,0x09,0x08,0x07,0x06,0x05]) then {
+					_handled = true;
+		};
+	
+		if (_dikCode in actionKeys "MoveForward") exitWith {r_interrupt = true};
+		if (_dikCode in actionKeys "MoveLeft") exitWith {r_interrupt = true};
+		if (_dikCode in actionKeys "MoveRight") exitWith {r_interrupt = true};
+		if (_dikCode in actionKeys "MoveBack") exitWith {r_interrupt = true};
+
+		//Prevent exploit of drag body
+		if ((_dikCode in actionKeys "Prone") and r_drag_sqf) exitWith { force_dropBody = true; };
+		if ((_dikCode in actionKeys "Crouch") and r_drag_sqf) exitWith { force_dropBody = true; };
+		
+		_shift = 	_this select 2;
+		_ctrl = 	_this select 3;
+		_alt =		_this select 4;
+
+		//diag_log format["Keypress: %1", _this];
+
+		
 		if (_dikCode in (actionKeys "GetOver")) then {
 			
 			if (player isKindOf  "PZombie_VB") then {
-				player switchAction "walkf";
+				_handled = true;
+				DZE_PZATTACK = true;
 			} else {
-				_inBuilding = [player] call fnc_isInsideBuilding;
 				_nearbyObjects = nearestObjects[getPosATL player, dayz_disallowedVault, 8];
-				if (_inBuilding or (count _nearbyObjects > 0)) then {
-					[objNull, player, rSwitchMove,"GetOver"] call RE;
-					player playActionNow "GetOver";
+				if (count _nearbyObjects > 0) then {
+					if((diag_tickTime - dayz_lastCheckBit > 4)) then {
+						[objNull, player, rSwitchMove,"GetOver"] call RE;
+						player playActionNow "GetOver";
+						dayz_lastCheckBit = diag_tickTime;
+					} else {
+						_handled = true;
+					};
 				};
 			};
 		};
 		//if (_dikCode == 57) then {_handled = true}; // space
 		//if (_dikCode in actionKeys 'MoveForward' or _dikCode in actionKeys 'MoveBack') then {r_interrupt = true};
-		if (_dikCode == 210) then //SCROLL LOCK
-			{
+		if (_dikCode == 210) then {
 				_nill = execvm "\z\addons\dayz_code\actions\playerstats.sqf";
-			};
-		//Prevent exploit of drag body
-		if ((_dikCode in actionKeys "Prone") and r_drag_sqf) then { force_dropBody = true; };
-		if ((_dikCode in actionKeys "Crouch") and r_drag_sqf) then { force_dropBody = true; };
-		if (_dikCode in actionKeys "MoveLeft") then {r_interrupt = true};
-		if (_dikCode in actionKeys "MoveRight") then {r_interrupt = true};
-		if (_dikCode in actionKeys "MoveForward") then {r_interrupt = true};
-		if (_dikCode in actionKeys "MoveBack") then {r_interrupt = true};
+		};
+		
 		if (_dikCode in actionKeys "ForceCommandingMode") then {_handled = true};
-		if (_dikCode in actionKeys "PushToTalk" and (time - dayz_lastCheckBit > 10)) then {
-			dayz_lastCheckBit = time;
+		if (_dikCode in actionKeys "PushToTalk" and (diag_tickdiag_tickTime - dayz_lastCheckBit > 10)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			[player,50,true,(getPosATL player)] spawn player_alertZombies;
 		};
-		if (_dikCode in actionKeys "VoiceOverNet" and (time - dayz_lastCheckBit > 10)) then {
-			dayz_lastCheckBit = time;
+		if (_dikCode in actionKeys "VoiceOverNet" and (diag_tickTime - dayz_lastCheckBit > 10)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			[player,50,true,(getPosATL player)] spawn player_alertZombies;
 		};
-		if (_dikCode in actionKeys "PushToTalkDirect" and (time - dayz_lastCheckBit > 10)) then {
-			dayz_lastCheckBit = time;
+		if (_dikCode in actionKeys "PushToTalkDirect" and (diag_tickTime - dayz_lastCheckBit > 10)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			[player,15,false,(getPosATL player)] spawn player_alertZombies;
 		};
-		if (_dikCode in actionKeys "Chat" and (time - dayz_lastCheckBit > 10)) then {
-			dayz_lastCheckBit = time;
+		if (_dikCode in actionKeys "Chat" and (diag_tickTime - dayz_lastCheckBit > 10)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			[player,15,false,(getPosATL player)] spawn player_alertZombies;
 		};
-		if (_dikCode in actionKeys "User20" and (time - dayz_lastCheckBit > 5)) then {
-			dayz_lastCheckBit = time;
+		if (_dikCode in actionKeys "User20" and (diag_tickTime - dayz_lastCheckBit > 5)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			_nill = execvm "\z\addons\dayz_code\actions\playerstats.sqf";
 		};
-		// numpad 8 0x48 now pgup 0xC9
-		if (_dikCode == 0xC9 or (_dikCode in actionKeys "User15")) then {
+		
+		// numpad 8 0x48 now pgup 0xC9 1
+		if ((_dikCode == 0xC9 and (!_alt or !_ctrl)) or (_dikCode in actionKeys "User15")) then {
 			DZE_Q = true;
 		};
 		// numpad 2 0x50 now pgdn 0xD1
-		if (_dikCode == 0xD1 or (_dikCode in actionKeys "User16")) then {
+		if ((_dikCode == 0xD1 and (!_alt or !_ctrl)) or (_dikCode in actionKeys "User16")) then {
 			DZE_Z = true;
 		};
+
+
+		// numpad 8 0x48 now pgup 0xC9 0.1
+		if ((_dikCode == 0xC9 and (_alt and !_ctrl)) or (_dikCode in actionKeys "User13")) then {
+			DZE_Q_alt = true;
+		};
+		// numpad 2 0x50 now pgdn 0xD1
+		if ((_dikCode == 0xD1 and (_alt and !_ctrl)) or (_dikCode in actionKeys "User14")) then {
+			DZE_Z_alt = true;
+		};
+
+
+		// numpad 8 0x48 now pgup 0xC9 0.01
+		if ((_dikCode == 0xC9 and (!_alt and _ctrl)) or (_dikCode in actionKeys "User7")) then {
+			DZE_Q_ctrl = true;
+		};
+		// numpad 2 0x50 now pgdn 0xD1
+		if ((_dikCode == 0xD1 and (!_alt and _ctrl)) or (_dikCode in actionKeys "User8")) then {
+			DZE_Z_ctrl = true;
+		};
+
+
+
+
 		// numpad 4 0x4B now Q 0x10
 		if (_dikCode == 0x10 or (_dikCode in actionKeys "User17")) then {
 			DZE_4 = true;
@@ -333,8 +383,8 @@ if (!isDedicated) then {
 			DZE_cancelBuilding = true;
 		};
 		
-		if ((_dikCode == 0x3E or _dikCode == 0x0F or _dikCode == 0xD3) and (time - dayz_lastCheckBit > 10)) then {
-			dayz_lastCheckBit = time;
+		if ((_dikCode == 0x3E or _dikCode == 0x0F or _dikCode == 0xD3) and (diag_tickTime - dayz_lastCheckBit > 10)) then {
+			dayz_lastCheckBit = diag_tickTime;
 			call dayz_forceSave;
 		};
 		/*
@@ -343,25 +393,6 @@ if (!isDedicated) then {
 		};
 		*/
 		_handled
-	};
-	
-	player_CombatRoll = {
-		DoRE = ({isPlayer _x} count (player nearEntities ["AllVehicles",100]) > 1);
-		if (canRoll && animationState player in ["amovpercmrunslowwrfldf","amovpercmrunsraswrfldf","amovpercmevaslowwrfldf","amovpercmevasraswrfldf"]) then {
-			canRoll = false;
-			null = [] spawn {
-				if (DoRE) then {
-					[nil, player, rSWITCHMOVE, "ActsPercMrunSlowWrflDf_FlipFlopPara"] call RE;
-				} else {
-					player switchMove "ActsPercMrunSlowWrflDf_FlipFlopPara";
-				};
-				sleep 0.3;
-				player setVelocity [(velocity player select 0) + 1.5 * sin direction player, (velocity player select 1) + 1.5 * cos direction player, (velocity player select 2) + 4];
-				sleep 1;
-				canRoll = true;
-			};
-			_handled = true;
-		};
 	};
 	
 	player_serverModelChange = {
@@ -474,12 +505,12 @@ if (!isDedicated) then {
 
 		lbAdd [TraderDialogItemList, "Loading items..."];
 
-		dayzTraderMenuResult = call compile format["tcacheBuy_%1;",_trader_id];
+		PVDZE_plr_TradeMenuResult = call compile format["tcacheBuy_%1;",_trader_id];
 
-		if(isNil "dayzTraderMenuResult") then {
-			dayzTraderMenu = [_activatingPlayer,_trader_id];
-			publicVariableServer  "dayzTraderMenu";
-			waitUntil {!isNil "dayzTraderMenuResult"};
+		if(isNil "PVDZE_plr_TradeMenuResult") then {
+			PVDZE_plr_TradeMenu = [_activatingPlayer,_trader_id];
+			publicVariableServer  "PVDZE_plr_TradeMenu";
+			waitUntil {!isNil "PVDZE_plr_TradeMenuResult"};
 		};
 
 		lbClear TraderDialogItemList;
@@ -594,7 +625,7 @@ if (!isDedicated) then {
 				_header,
 				_File
 			]];
-		} forEach dayzTraderMenuResult;
+		} forEach PVDZE_plr_TradeMenuResult;
 		TraderItemList = _item_list;
 	};
 
@@ -649,7 +680,7 @@ if (!isDedicated) then {
 
 	EpochDeathBoardLoad = {
 		createdialog "EpochDeathBoardDialog";
-		/*dayzPlayerDeathsResult = [
+		/*PVDZE_plr_DeathBResult = [
 			["maca134","Bob","AK_107_Kobra",100,[8,30]],
 			["Fred","Jonny","FN_FAL",42,[8,32]],
 			["maca134","Bob","M9SD",100,[5,30]],
@@ -657,7 +688,7 @@ if (!isDedicated) then {
 		];*/
 		{
 			lbAdd [EpochDeathBoardDialogList, (_x select 0)];
-		} forEach dayzPlayerDeathsResult;
+		} forEach PVDZE_plr_DeathBResult;
 	};
 
 
@@ -677,7 +708,7 @@ if (!isDedicated) then {
 		_i = _this select 0;
 		if (_i < 0) exitWith {};
 		_output = _this select 1;
-		_record = dayzPlayerDeathsResult select _i;
+		_record = PVDZE_plr_DeathBResult select _i;
 		_record_stxt = call compile format["epoch_death_board_record_%1;",_i];
 		if(isNil "_record_stxt") then {
 			_record_stxt = format["<t size='1.6' align='left'>%1</t><br /><br />", (_record select 0)];
@@ -722,7 +753,8 @@ if (!isDedicated) then {
 	progressLoadingScreen 0.8;
 	
 //Both
-	BIS_fnc_selectRandom =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_selectRandom.sqf";		//Checks which actions for nearby casualty
+	BIS_fnc_selectRandom =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\BIS_fnc\fn_selectRandom.sqf";		//Checks which actions for nearby casualty
+	BIS_fnc_vectorAdd =         compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\BIS_fnc\fn_vectorAdd.sqf";		//Checks which actions for nearby casualty
 	fnc_buildWeightedArray = 	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_buildWeightedArray.sqf";		//Checks which actions for nearby casualty
 	fnc_usec_damageVehicle =	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_damageHandlerVehicle.sqf";		//Event handler run on damage
 	zombie_initialize = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\init\zombie_init.sqf";
@@ -763,7 +795,7 @@ if (!isDedicated) then {
 	player_medPainkiller =		compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\publicEH\medPainkiller.sqf";
 	world_isDay = 				{if ((daytime < (24 - dayz_sunRise)) and (daytime > dayz_sunRise)) then {true} else {false}};
 	player_humanityChange =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_humanityChange.sqf";
-	spawn_loot = 				compile preprocessFileLineNumbers "Fixes\spawn_loot.sqf";
+	spawn_loot =				compile preprocessFileLineNumbers "Fixes\spawn_loot.sqf";
 	spawn_loot_small =				compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\spawn_loot_small.sqf";
 	// player_projectileNear = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_projectileNear.sqf";
 	
@@ -807,5 +839,5 @@ if (!isDedicated) then {
 	
 	
 	//Start Dynamic Weather
-	//execVM "fixes\DynamicWeatherEffects.sqf;
+	//execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 	initialized = true;

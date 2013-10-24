@@ -152,6 +152,7 @@ boil_tin_cans = [
 ];
 
 dayz_combination = "";
+dayz_humanitytarget = "";
 dayz_combatLog = "";
 canRoll = true;
 
@@ -176,7 +177,7 @@ SleepTemperatur	= 		90 / 100;	//Firs Value = Minutes untill Player reaches the c
 //Server Variables
 allowConnection = 		false;
 isSinglePlayer =		false;
-dayz_serverObjectMonitor = [];
+PVDZE_serverObjectMonitor = [];
 PlayerDeaths = [];
 
 //Streaming Variables (player only)
@@ -204,6 +205,7 @@ dayz_resetSelfActions = {
 	s_player_fillfuel = 	-1;
 	s_player_grabflare = 	-1;
 	s_player_callzombies = 	-1;
+	s_player_showname = 	-1;
 	s_player_debuglootpos = 	-1;
 	s_player_pzombiesattack = 	-1;
 	s_player_pzombiesvision =	-1;
@@ -239,6 +241,7 @@ dayz_resetSelfActions = {
 	s_player_fillgen	 =  -1;
 	s_player_upgrade_build	 =  -1;
 	s_player_maint_build	 =  -1;
+	s_player_downgrade_build	 =  -1;
 	s_player_towing		 =  -1;
 };
 call dayz_resetSelfActions;
@@ -284,6 +287,8 @@ r_action_repair = 		false;
 r_action_targets = 		[];
 r_pitchWhine = 			false;
 r_isBandit =			false;
+
+DZE_PROTOBOX = objNull;
 
 //ammo routine
 r_player_actions2 = [];
@@ -372,16 +377,16 @@ dayz_zombieTargetList = [
 	["Air",500],
 	["LandVehicle",200]
 ];
-dayzHit = [];
-dayzPublishObj = [];		//used for eventhandler to spawn a mirror of players tent
-dayzHideBody = objNull;
+PVDZE_plr_Hit = [];
+PVDZE_obj_Publish = [];		//used for eventhandler to spawn a mirror of players tent
+PVDZE_plr_HideBody = objNull;
 dayz_selectedVault = objNull;
 dayz_selectedDoor = objNull;
 
-dayzPublishVeh = [];		// for vehicle traders
-dayzTradeObject = [];		// For all traders increment qty
-dayzTraderMenu = [];  		// For all traders	
-dayzPlayerDeaths = [];
+PVDZE_veh_Publish = [];		// for vehicle traders
+PVDZE_obj_Trade = [];		// For all traders increment qty
+PVDZE_plr_TradeMenu = [];  		// For all traders	
+PVDZE_plr_DeathB = [];
 
 //DayZ settings
 dayz_dawn = 6;
@@ -432,7 +437,11 @@ if(isNil "DZE_teleport") then {
 if(isNil "DZE_BuildingLimit") then {
 	DZE_BuildingLimit = 150;
 };
+if(isNil "DZE_HumanityTargetDistance") then {
+	DZE_HumanityTargetDistance = 25;
+};
 
+DZE_REPLACE_WEAPONS = [["Crossbow","ItemMatchbox","ItemHatchet"],["Crossbow_DZ","ItemMatchbox_DZE","ItemHatchet_DZE"]];
 
 /*
 if(isNil "dayz_canBuildInCity") then {
@@ -451,10 +460,10 @@ if(isNil "dayz_zedsAttackVehicles") then {
 };
 
 // update objects
-dayz_updateObjects = ["Car", "Helicopter", "Motorcycle", "Ship", "TentStorage", "VaultStorage","LockboxStorage","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ"];
+dayz_updateObjects = ["Plane","Car", "Helicopter", "Motorcycle", "Ship", "TentStorage", "VaultStorage","LockboxStorage","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ"];
 dayz_disallowedVault = ["TentStorage", "BuiltItems","ModularItems","DZE_Base_Object"];
 dayz_reveal = ["AllVehicles","WeaponHolder","Land_A_tent","BuiltItems","ModularItems","DZE_Base_Object"];
-dayz_allowedObjects = ["TentStorage","TentStorageDomed","TentStorageDomed2", "VaultStorageLocked", "Hedgehog_DZ", "Sandbag1_DZ","TrapBear","Fort_RazorWire","WoodGate_DZ","Land_HBarrier1_DZ","Land_HBarrier3_DZ","Fence_corrugated_DZ","M240Nest_DZ","CanvasHut_DZ","ParkBench_DZ","MetalGate_DZ","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ","Plastic_Pole_EP1_DZ","Generator_DZ","StickFence_DZ","LightPole_DZ","FuelPump_DZ","DesertCamoNet_DZ","ForestCamoNet_DZ","DesertLargeCamoNet_DZ","ForestLargeCamoNet_DZ","SandNest_DZ","DeerStand_DZ","MetalPanel_DZ","WorkBench_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallDoor_DZ","WoodLargeWallWin_DZ","WoodSmallWall_DZ","WoodSmallWallWin_DZ","WoodSmallWallDoor_DZ","LockboxStorageLocked","WoodFloorHalf_DZ","WoodFloorQuarter_DZ","WoodStairs_DZ","WoodStairsSans_DZ","WoodSmallWallThird_DZ","WoodLadder_DZ","Land_DZE_GarageWoodDoor","Land_DZE_LargeWoodDoor","Land_DZE_WoodDoor","Land_DZE_GarageWoodDoorLocked","Land_DZE_LargeWoodDoorLocked","Land_DZE_WoodDoorLocked","CinderWallHalf_DZ","CinderWall_DZ","CinderWallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorLocked_DZ","CinderWallSmallDoorway_DZ","CinderWallDoorSmall_DZ","CinderWallDoorSmallLocked_DZ","MetalFloor_DZ"];
+dayz_allowedObjects = ["TentStorage","TentStorageDomed","TentStorageDomed2", "VaultStorageLocked", "Hedgehog_DZ", "Sandbag1_DZ","TrapBear","Fort_RazorWire","WoodGate_DZ","Land_HBarrier1_DZ","Land_HBarrier3_DZ","Fence_corrugated_DZ","M240Nest_DZ","CanvasHut_DZ","ParkBench_DZ","MetalGate_DZ","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ","Plastic_Pole_EP1_DZ","Generator_DZ","StickFence_DZ","LightPole_DZ","FuelPump_DZ","DesertCamoNet_DZ","ForestCamoNet_DZ","DesertLargeCamoNet_DZ","ForestLargeCamoNet_DZ","SandNest_DZ","DeerStand_DZ","MetalPanel_DZ","WorkBench_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallDoor_DZ","WoodLargeWallWin_DZ","WoodSmallWall_DZ","WoodSmallWallWin_DZ","WoodSmallWallDoor_DZ","LockboxStorageLocked","WoodFloorHalf_DZ","WoodFloorQuarter_DZ","WoodStairs_DZ","WoodStairsSans_DZ","WoodSmallWallThird_DZ","WoodLadder_DZ","Land_DZE_GarageWoodDoor","Land_DZE_LargeWoodDoor","Land_DZE_WoodDoor","Land_DZE_GarageWoodDoorLocked","Land_DZE_LargeWoodDoorLocked","Land_DZE_WoodDoorLocked","CinderWallHalf_DZ","CinderWall_DZ","CinderWallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorLocked_DZ","CinderWallSmallDoorway_DZ","CinderWallDoorSmall_DZ","CinderWallDoorSmallLocked_DZ","MetalFloor_DZ","WoodRamp_DZ"];
 
 DZE_LockableStorage = ["VaultStorage","VaultStorageLocked","LockboxStorageLocked","LockboxStorage"];
 DZE_LockedStorage = ["VaultStorageLocked","LockboxStorageLocked"];
@@ -463,7 +472,7 @@ DZE_UnLockedStorage = ["VaultStorage","LockboxStorage"];
 // List of removable items that require crowbar
 DZE_isRemovable = ["Fence_corrugated_DZ","M240Nest_DZ","ParkBench_DZ","Plastic_Pole_EP1_DZ"];
 DZE_isWreck = ["SKODAWreck","HMMWVWreck","UralWreck","datsun01Wreck","hiluxWreck","datsun02Wreck","UAZWreck","Land_Misc_Garb_Heap_EP1","Fort_Barricade_EP1","Rubbish2"];
-DZE_isWreckBuilding = ["Land_wreck_cinder","Land_wood_wreck_quarter","Land_wood_wreck_floor","Land_wood_wreck_third","Land_wood_wreck_frame"];
+DZE_isWreckBuilding = ["Land_wreck_cinder","Land_wood_wreck_quarter","Land_wood_wreck_floor","Land_wood_wreck_third","Land_wood_wreck_frame","Land_iron_vein_wreck","Land_silver_vein_wreck","Land_gold_vein_wreck","Land_ammo_supply_wreck"];
 DZE_isNewStorage = ["VaultStorage","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ"];
 
 // These work with just a running generator
@@ -491,9 +500,18 @@ if(isServer) then {
 	if(isNil "EpochEvents") then {
 		EpochEvents = [];
 	};
+	if(isNil "DZE_vehicleAmmo") then {
+		DZE_vehicleAmmo = 0;
+	};
+
+	if(isNil "DZE_BackpackGuard") then {
+		DZE_BackpackGuard = true;
+	};
 	
 	dayz_flyMonitor = [];		//used for monitor flies
 	DZE_FlyWorkingSet = [];
+
+	DZE_safeVehicle = ["ParachuteWest","ParachuteC"];
 	
 };
 
@@ -604,10 +622,17 @@ if(!isDedicated) then {
 	DZE_CanPickup = true;
 	DZE_Q = false;
 	DZE_Z = false;
+
+	DZE_Q_alt = false;
+	DZE_Z_alt = false;
+
+	DZE_Q_ctrl = false;
+	DZE_Z_ctrl = false;
+
 	DZE_5 = false;
 	DZE_4 = false;
 	DZE_6 = false;
 
 	DZE_cancelBuilding = false;
-
+	DZE_PZATTACK = false;
 };

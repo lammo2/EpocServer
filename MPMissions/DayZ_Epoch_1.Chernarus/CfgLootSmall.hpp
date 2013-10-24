@@ -1,6 +1,4 @@
-#include "CfgLootSmall.hpp"
-
-class CfgLoot {
+class CfgLootSmall {
 	trash[] = {
 		{
 			"TrashTinCan",
@@ -35,14 +33,13 @@ class CfgLoot {
 			"ItemBandage",
 			"ItemPainkiller",
 			"FoodBioMeat",
-			"8Rnd_9x18_MakarovSD",
-			"ItemDocument"
+			"8Rnd_9x18_MakarovSD"
 		},
 		{
 			0.07,
-			0.08,
 			0.09,
 			0.09,
+			0.1,
 			0.09,
 			0.05,
 			0.05,
@@ -55,8 +52,7 @@ class CfgLoot {
 			0.06,
 			0.06,
 			0.01,
-			0.01,
-			0.02
+			0.01
 		}
 	};
 	office2[] = {
@@ -77,14 +73,12 @@ class CfgLoot {
 			"ItemBandage",
 			"ItemPainkiller",
 			"FoodBioMeat",
-			"8Rnd_9x18_MakarovSD",
-			"ItemBriefcaseEmpty",
-			"ItemDocument"
+			"8Rnd_9x18_MakarovSD"
 		},
 		{
 			0.07,
-			0.08,
-			0.08,
+			0.09,
+			0.09,
 			0.09,
 			0.09,
 			0.05,
@@ -98,9 +92,7 @@ class CfgLoot {
 			0.06,
 			0.06,
 			0.01,
-			0.01,
-			0.01,
-			0.02
+			0.01
 		}
 	};
 	food[] = {
@@ -165,9 +157,7 @@ class CfgLoot {
 			"HandChemGreen",
 			"HandChemBlue",
 			"HandChemRed",
-			"ItemHeatPack",
-			"ItemLockbox",
-			"ItemDocument"
+			"ItemHeatPack"
 		},
 		{
 			0.06,
@@ -181,14 +171,14 @@ class CfgLoot {
 			0.01,
 			0.01,
 			0.01,
-			0.07,
-			0.03,
-			0.01,
-			0.04,
-			0.04,
-			0.05,
-			0.05,
 			0.08,
+			0.03,
+			0.01,
+			0.04,
+			0.04,
+			0.05,
+			0.05,
+			0.09,
 			0.02,
 			0.04,
 			0.07,
@@ -196,9 +186,7 @@ class CfgLoot {
 			0.01,
 			0.03,
 			0.03,
-			0.03,
-			0.04,
-			0.02
+			0.03
 		}
 	};
 	generic[] = {
@@ -336,14 +324,12 @@ class CfgLoot {
 			"HandChemBlue",
 			"HandChemRed",
 			"ItemHeatPack",
-			"FoodMRE",
 			"8Rnd_9x18_MakarovSD",
 			"20Rnd_B_765x17_Ball",
-			"30Rnd_9x19_UZI_SD",
-			"ItemDocument"
+			"30Rnd_9x19_UZI_SD"
 		},
 		{
-			0.07,
+			0.09,
 			0.04,
 			0.01,
 			0.01,
@@ -380,11 +366,9 @@ class CfgLoot {
 			0.02,
 			0.02,
 			0.04,
-			0.03,
 			0.01,
 			0.04,
 			0.01,
-			0.02
 		}
 	};
 	policeman[] = {
@@ -398,9 +382,7 @@ class CfgLoot {
 			"8Rnd_9x18_MakarovSD",
 			"ItemComboLock",
 			"SmokeShell",
-			"FoodMRE",
-			"ItemHotwireKit",
-			"ItemDocument"
+			"ItemHotwireKit"
 		},
 		{
 			0.3,
@@ -412,35 +394,15 @@ class CfgLoot {
 			0.01,
 			0.05,
 			0.04,
-			0.04,
-			0.01,
-			0.02
+			0.01
 		}
 	};
 	hunter[] = {
 		{
-			"ItemBandage",
-			"5x_22_LR_17_HMR",
-			"7Rnd_45ACP_1911",
-			"10x_303",
-			"ItemWaterbottleUnfilled",
-			"WoodenArrow",
-			"ItemHeatPack",
-			"FoodMRE",
-			"FoodNutmix",
-			"ItemDocument"
+			"FoodMRE"
 		},
 		{
-			0.4,
-			0.15,
-			0.03,
-			0.1,
-			0.05,
-			0.2,
-			0.02,
-			0.01,
-			0.02,
-			0.02
+			0.01
 		}
 	};
 
@@ -457,17 +419,14 @@ class CfgLoot {
 			"FoodCanPasta",
 			"ItemBandage",
 			"ItemPainkiller",
-			"ItemWire",
-			"ItemTankTrap",
 			"ItemComboLock",
-			"ItemSledgeHead",
-			"ItemDocument"
+			"ItemSledgeHead"
 		},
 		{
 			0.09,
-			0.09,
 			0.10,
 			0.10,
+			0.11,
 			0.10,
 			0.06,
 			0.06,
@@ -475,14 +434,10 @@ class CfgLoot {
 			0.06,
 			0.1,
 			0.06,
-			0.01,
-			0.03,
 			0.04,
-			0.02,
 			0.02
 		}
 	};
-
 	clothes[] = {
 		{
 			"Skin_RU_Policeman_DZ",
@@ -581,52 +536,6 @@ class CfgLoot {
 			0.04,
 			0.04,
 			0.04
-		}
-	};
-	tents[] = {
-		{
-			"ItemTentOld",
-			"ItemTentDomed",
-			"ItemTentDomed2",
-		},
-		{
-			0.34,
-			0.33,
-			0.33,
-		}
-	};
-	backpacks[] = {
-		{
-			"DZ_Assault_Pack_EP1", // 1-12
-			"DZ_Czech_Vest_Puch", // 1-12
-			"DZ_TerminalPack_EP1", // 1-15
-			"DZ_ALICE_Pack_EP1", // 2-20
-			"DZ_TK_Assault_Pack_EP1", // 2-22
-			"DZ_CompactPack_EP1", // 2-25
-		},
-		{
-			0.22,
-			0.20,
-			0.18,
-			0.16,
-			0.13,
-			0.11,
-		}
-	};
-	militarybackpacks[] = {
-		{
-			"DZ_British_ACU", // 3-30
-			"DZ_GunBag_EP1",  // 3-35
-			"DZ_CivilBackpack_EP1", //4-40
-			"DZ_Backpack_EP1",  //5-50
-			"DZ_LargeGunBag_EP1" // 6-60 
-		},
-		{
-			0.30,
-			0.25,
-			0.20,
-			0.15,
-			0.10,
 		}
 	};
 };
