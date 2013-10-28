@@ -6,7 +6,7 @@
 player removeAction s_player_selfBloodbag;        //remove the action from users scroll menu
 player playActionNow "Medic";                    //play bloodbag animation
  
-sleep 5;                                        //wait 5 seconds for animation to finish
+sleep 15;                                        //wait 5 seconds for animation to finish
  
 player removeMagazine "ItemBloodbag";            //remove the used bloodbag from inventory
  
