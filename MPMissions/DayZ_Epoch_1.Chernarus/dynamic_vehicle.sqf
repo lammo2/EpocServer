@@ -53,7 +53,7 @@ AllowedVehiclesList = [
 ["M1030_US_DES_EP1",1],
 ["MH6J_DZ",1],
 ["Mi17_Civilian_DZ",1],
-["Mi17_DZ",1],
+["Mi17_DZE",1],
 ["MMT_Civ",0],
 ["MtvrRefuel_DES_EP1_DZ",1],
 ["MTVR_DES_EP1",1],
