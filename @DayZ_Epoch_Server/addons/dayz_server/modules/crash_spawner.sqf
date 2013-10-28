@@ -12,7 +12,7 @@ _fadeFire = false;
 _spawnRoll = random 1;
 if (_spawnRoll <= _spawnChance) then {
 	
-	_crashModel = ["UH60Wreck_DZ","UH1Wreck_DZ","Mass_grave_DZ"] call BIS_fnc_selectRandom;
+	_crashModel = ["UH60Wreck_DZ","UH1Wreck_DZ"] call BIS_fnc_selectRandom;
 
 	if(_crashModel == "Mass_grave_DZ") then {
 		_lootTable = "MassGrave";
@@ -68,7 +68,7 @@ if (_spawnRoll <= _spawnChance) then {
 		_crash setvariable ["fadeFire",_fadeFire,true];
 	};
 	
-	_config = 		configFile >> "CfgBuildingLoot" >> _lootTable;
+	_config = 		missionconfigFile >> "CfgBuildingLoot" >> _lootTable;
 	_itemTypes =	[] + getArray (_config >> "itemType");
 	_index =        dayz_CBLBase find toLower(_lootTable);
 	_weights =		dayz_CBLChances select _index;

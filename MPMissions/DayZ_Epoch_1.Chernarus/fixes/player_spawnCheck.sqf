@@ -14,6 +14,15 @@ _position = getPosATL player;
 dayz_spawnZombies = 0;
 dayz_CurrentZombies = 0;
 
+// experiment with adding fly sounds locally for both zombies and players.
+_soundLimit = 3;
+{
+	if (!alive _x) then {
+		[player,"flysound",0,true] call dayz_zombieSpeak;
+		_soundLimit = _soundLimit - 1;
+	};
+	if (_soundLimit == 0) exitWith {};
+} foreach (nearestObjects [player, ["CAManBase"], 8]);
 _players = _position nearEntities ["CAManBase",_radius+200];
 dayz_maxGlobalZombies = dayz_maxGlobalZombiesInit;
 {
