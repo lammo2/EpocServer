@@ -7,7 +7,7 @@ AllowedVehiclesList = [
 ["C130J_US_EP1",1],
 ["car_hatchback",1],
 ["car_sedan",1],
-["CH_47F_EP1_DZ",1],
+["CH_47F_EP1_DZE",1],
 //["CSJ_GyroC",1],
 //["CSJ_GyroCover",1],
 //["CSJ_GyroP",1],
