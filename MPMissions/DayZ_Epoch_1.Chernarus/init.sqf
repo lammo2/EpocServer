@@ -26,6 +26,7 @@ MaxDynamicDebris = 500; // Default = 100
 dayz_MapArea = 12000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30 
 dayz_tameDogs = true;
+dayz_paraSpawn = true;
 
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
@@ -101,7 +102,8 @@ if (!isDedicated) then {
 	
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
-	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
+	//_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
+	_playerMonitor = 	[] execFSM "fixes\player_monitor.fsm";	
 	_void = [] execVM "R3F_Realism\R3F_Realism_Init.sqf";
 	
 	//Lights
@@ -110,3 +112,5 @@ if (!isDedicated) then {
 #include "\z\addons\dayz_code\system\REsec.sqf"
 // Run SafeZones
 [] execVM "safezone.sqf";
+//Run Static Markers
+_markers = [] execVM "scripts\Static.sqf";
