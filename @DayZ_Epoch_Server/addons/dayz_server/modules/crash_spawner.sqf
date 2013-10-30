@@ -2,7 +2,7 @@ private ["_guaranteedLoot","_randomizedLoot","_spawnChance","_spawnMarker","_spa
 
 _guaranteedLoot = 3;
 _randomizedLoot = 4;
-_spawnChance =  0.50;
+_spawnChance =  0.75;
 _spawnMarker = 'center';
 // _spawnRadius = 5000;
 _spawnRadius = HeliCrashArea;
@@ -29,7 +29,12 @@ if (_spawnRoll <= _spawnChance) then {
 	_crash = createVehicle [_crashModel,_position, [], 0, "CAN_COLLIDE"];
 	// Randomize the direction the wreck is facing
 	_crash setDir round(random 360);
-
+	
+	//Spawn AI
+	_rndnum = round(random 3) + 2;
+	_aispawn = [_position,20,5,_rndnum,0,1,10,10,2,0] execVM "\z\addons\dayz_server\compile\add_unit_server.sqf";
+	_aispawn = [_position,20,5,1,0,1,10,10,4,0] execVM "\z\addons\dayz_server\compile\add_unit_server.sqf";
+	
 	// Using "custom" wrecks (using the destruction model of a vehicle vs. a prepared wreck model) will result
 	// in the model spawning halfway in the ground.  To combat this, an OPTIONAL configuration can be tied to
 	// the CfgVehicles class you've created for the custom wreck to define how high above the ground it should
