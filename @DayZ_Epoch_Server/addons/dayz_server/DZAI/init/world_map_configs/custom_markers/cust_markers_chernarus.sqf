@@ -25,12 +25,12 @@
 	_this setMarkerShape "ELLIPSE";
 	_this setMarkerType "Empty";
 	_this setMarkerBrush "Solid";
-	_this setMarkerSize [200, 200];
+	_this setMarkerSize [400, 400];
 	_this setMarkerAlpha 0;
 	
 	_this = createMarker ["WP", [932.71082, 4507.2783, 0]];
 	_this setMarkerShape "ELLIPSE";
 	_this setMarkerType "Empty";
 	_this setMarkerBrush "Solid";
-	_this setMarkerSize [200, 200];
+	_this setMarkerSize [400, 400];
 	_this setMarkerAlpha 0;

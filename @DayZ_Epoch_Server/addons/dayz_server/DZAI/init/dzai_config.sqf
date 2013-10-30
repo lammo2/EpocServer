@@ -85,10 +85,10 @@ DZAI_freeForAll = false;
 DZAI_staticAI = false;
 
 //Time to wait before respawning an AI group once all units have been eliminated. (Default: 600)										
-DZAI_respawnTime = 600;
+DZAI_respawnTime = 1200;
 
 //Time to allow spawned AI units to exist in seconds before being despawned when no players are present in a trigger area. (Default: 120)										
-DZAI_despawnWait = 300;										
+DZAI_despawnWait = 1200;										
 
 
 /*	Dynamic Trigger Settings (Dynamic AI spawns)
@@ -106,10 +106,10 @@ DZAI_V2dynSpawns = false;
 DZAI_dynTriggersMax = 0;
 
 //Time to wait before deleting bodies of AI units spawned from dynamic triggers. (Default: 300)									
-DZAI_dynRemoveDeadWait = 300;
+DZAI_dynRemoveDeadWait = 1200;
 
 //Time to wait before despawning all AI units in dynamic trigger area when no players are present, and delay time before force-despawning trigger area after all spawned units have been killed. (Default: 120)
-DZAI_dynDespawnWait = 300;
+DZAI_dynDespawnWait = 1200;
 
 //List of marker-defined areas where dynamic AI spawns should NOT be created. These markers may be of any shape (rectangular or circular).
 //Markers can be defined in /world_map_configs/custom_markers/cust_markers_(mapname).sqf (Default: [])
@@ -125,7 +125,7 @@ For instructions, consult Step 5 of the Installation Instructions on the DZAI Gi
 DZAI_aiHeliPatrols = true;		
 
 //Maximum number of active AI helicopters patrols. (Default: 0).							
-DZAI_maxHeliPatrols = 3;
+DZAI_maxHeliPatrols = 1;
 
 //Classnames of helicopter types to use. Helicopter types must have at least 2 gunner seats (Default: "UH1H_DZ").
 //As of version 1.6.0, plane-type air vehicles can also be added. Planes that are normally unarmed will have an M240 weapon added to the vehicle.									
