@@ -7,7 +7,7 @@
 1 "pz_" !="pz_villager2" !="pz_policeman" !="pz_hunter" !="pz_worker2" !="pz_suit2" !="pz_priest" !="pz_villager1" !="pz_villager3" !="pz_doctor" !="pz_worker3" !="pz_teacher" !="pz_worker1"
 1 "WeaponHolder" !="WeaponHolder" !="WeaponHolder_ItemTentDomed" !="WeaponHolder_ItemTentDomed2" !="WeaponHolder_ItemMachete" !="WeaponHolder_MeleeCrowbar" !="WeaponHolder_ItemTent" !="WeaponHolder_ItemHatchet" !="WeaponHolder_ItemCrowbar" !="WeaponHolder_ItemFuelcan" !="WeaponHolder_ItemJerrycan" !="WeaponHolder_PartGlass" !="WeaponHolder_PartWheel" !="WeaponHolder_PartGeneric" !="WeaponHolder_PartFueltank" !="WeaponHolder_PartVRotor" !="WeaponHolder_PartEngine" !="WeaponHolder_ItemVault" !="WeaponHolder_ItemTentOld" !="WeaponHolder_ItemHatchet_DZE"
 1 "Preview" !"_DZ" !="Fort_RazorWirePreview" !="Land_HBarrier1Preview" !="Land_HBarrier3ePreview" !="Land_fortified_nest_smallPreview"
-1 "Parachute" !="ParachuteWest" 
+1 "Parachute" !="ParachuteWest" !="ParachuteC"
 1 "Box" !="MedBox0" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox" !="LockboxStorageLocked" !="LockboxStorage" !="DebugBoxPlayer_DZ"
 1 "40mm" !="G_40mm_HE" !="G_40mm_Smoke" !="F_40mm_White" !="F_40mm_Green"
 1 "GUE_" !"_DZ"
