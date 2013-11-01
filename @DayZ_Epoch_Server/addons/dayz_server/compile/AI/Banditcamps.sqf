@@ -39,7 +39,9 @@ _ScopedLoot = _Scoped call BIS_fnc_selectRandom;
 _ScopedLoot2 = _Scoped call BIS_fnc_selectRandom;
 _UnderbarrelLoot = _Underbarrel call BIS_fnc_selectRandom;
 _SniperLoot = _Sniper call BIS_fnc_selectRandom;
+_SniperLoot2 = _Sniper call BIS_fnc_selectRandom;
 _LMGLoot = _LMG call BIS_fnc_selectRandom;
+_LMGLoot2 = _LMG call BIS_fnc_selectRandom;
 //WP loot
 _pBaseloot = _Base call BIS_fnc_selectRandom;
 _pBaseloot2 = _Base call BIS_fnc_selectRandom;
@@ -47,6 +49,7 @@ _pBaseloot3 = _Base call BIS_fnc_selectRandom;
 _pScopedLoot = _Scoped call BIS_fnc_selectRandom;
 _pScopedLoot2 = _Scoped call BIS_fnc_selectRandom;
 _pUnderbarrelLoot = _Underbarrel call BIS_fnc_selectRandom;
+_pUnderbarrelLoot2 = _Underbarrel call BIS_fnc_selectRandom;
 _pSniperLoot = _Sniper call BIS_fnc_selectRandom;
 _pLMGLoot = _LMG call BIS_fnc_selectRandom;
 //Spawn weapons Skanky
@@ -57,7 +60,9 @@ _wbox3 addWeaponCargoGlobal [_ScopedLoot select 0, 1];
 _wbox3 addWeaponCargoGlobal [_ScopedLoot2 select 0, 1];
 _wbox3 addWeaponCargoGlobal [_UnderbarrelLoot select 0, 1];
 _wbox3 addWeaponCargoGlobal [_SniperLoot select 0, 1];
+_wbox3 addWeaponCargoGlobal [_SniperLoot2 select 0, 1];
 _wbox3 addWeaponCargoGlobal [_LMGLoot select 0, 1];
+_wbox3 addWeaponCargoGlobal [_LMGLoot2 select 0, 1];
 //Spawn weapons WP
 _pwbox4 addWeaponCargoGlobal [_pBaseloot select 0, 1];
 _pwbox4 addWeaponCargoGlobal [_pBaseloot2 select 0, 1];
@@ -65,6 +70,7 @@ _pwbox4 addWeaponCargoGlobal [_pBaseloot3 select 0, 1];
 _pwbox3 addWeaponCargoGlobal [_pScopedLoot select 0, 1];
 _pwbox3 addWeaponCargoGlobal [_pScopedLoot2 select 0, 1];
 _pwbox3 addWeaponCargoGlobal [_pUnderbarrelLoot select 0, 1];
+_pwbox3 addWeaponCargoGlobal [_pUnderbarrelLoot2 select 0, 1];
 _pwbox3 addWeaponCargoGlobal [_pSniperLoot select 0, 1];
 _pwbox3 addWeaponCargoGlobal [_pLMGLoot select 0, 1];
 //Spawn Mags skanky
@@ -75,7 +81,9 @@ _wbox3 addMagazineCargoGlobal [_ScopedLoot select 1, 2];
 _wbox3 addMagazineCargoGlobal [_ScopedLoot2 select 1, 2];
 _wbox3 addMagazineCargoGlobal [_UnderbarrelLoot select 1, 2];
 _wbox3 addMagazineCargoGlobal [_SniperLoot select 1, 2];
+_wbox3 addMagazineCargoGlobal [_SniperLoot2 select 1, 2];
 _wbox3 addMagazineCargoGlobal [_LMGLoot select 1, 2];
+_wbox3 addMagazineCargoGlobal [_LMGLoot2 select 1, 2];
 //Spawn Mags WP
 _pwbox4 addMagazineCargoGlobal [_pBaseloot select 1, 2];
 _pwbox4 addMagazineCargoGlobal [_pBaseloot2 select 1, 2];
@@ -83,6 +91,7 @@ _pwbox4 addMagazineCargoGlobal [_pBaseloot3 select 1, 2];
 _pwbox3 addMagazineCargoGlobal [_pScopedLoot select 1, 2];
 _pwbox3 addMagazineCargoGlobal [_pScopedLoot2 select 1, 2];
 _pwbox3 addMagazineCargoGlobal [_pUnderbarrelLoot select 1, 2];
+_pwbox3 addMagazineCargoGlobal [_pUnderbarrelLoot2 select 1, 2];
 _pwbox3 addMagazineCargoGlobal [_pSniperLoot select 1, 2];
 _pwbox3 addMagazineCargoGlobal [_pLMGLoot select 1, 2];
 //Add HE skanky
