@@ -7,7 +7,7 @@
 5 "Soda" !"bulk_" !"Empty" !="ItemSodaRbull" !="ItemSodaOrangeSherbet" !="ItemSodaMtngreen" !="ItemSodaSmasht" !="ItemSodaMzly" !="ItemSodaClays" !="ItemSodaLemonade" !="ItemSodaDrwaste" !="ItemSodaMdew" !="ItemSodaCoke" !="ItemSodaPepsi" !="ItemSodaLvg" !="ItemSodaRabbit" !="ItemSodaR4z0r" !="ItemSodaRocketFuel" !="ItemSodaGrapeDrink"
 5 "Bar" !"bulk_" !"10oz" !"Barr" !"crowbar" !="ItemAluminumBar" !="ItemGoldBar" !="ItemCopperBar" !="ItemSilverBar" !="ItemTinBar"
 5 "10oz" !"bulk_" !"Briefcase" !="ItemAluminumBar10oz" !="ItemGoldBar10oz" !="ItemCopperBar10oz" !="ItemSilverBar10oz" !="ItemTinBar10oz"
-1 "Briefcase" !"Empty" !"bulk_" !="ItemBriefcase10oz" !="ItemBriefcase20oz" !="ItemBriefcase30oz" !="ItemBriefcase40oz" !="ItemBriefcase50oz" !="ItemBriefcase60oz" !="ItemBriefcase70oz" !="ItemBriefcase80oz" !="ItemBriefcase90oz" !="ItemBriefcase100oz"
+5 "Briefcase" !"Empty" !"bulk_" !="ItemBriefcase10oz" !="ItemBriefcase20oz" !="ItemBriefcase30oz" !="ItemBriefcase40oz" !="ItemBriefcase50oz" !="ItemBriefcase60oz" !="ItemBriefcase70oz" !="ItemBriefcase80oz" !="ItemBriefcase90oz" !="ItemBriefcase100oz"
 5 "Tent" !"bulk_" !="ItemTentOld" !="ItemTentDomed" !="ItemTent" !="ItemTentDomed2"
 5 "Part" !"bulk_" !"bulk_" !"Wood" !"Item" !="PartPlankPack" !="PartEngine" !="PartGeneric" !="PartWheel" !="PartVRotor" !="PartFueltank" !="PartGlass"
 1 "Wood" !"bulk_" !"_kit" !="WoodenArrow" !="PartWoodPlywood" !="PartPlywoodPack" !="PartWoodLumber" !="PartWoodPile" !="ItemWoodWallThird" !="ItemWoodFloorQuarter" !="ItemWoodFloorHalf" !="ItemWoodWallWithDoorLgLocked" !="ItemWoodWallLg" !="ItemWoodWallWindowLg" !="ItemWoodStairsSupport" !="ItemWoodFloor" !="ItemWoodStairs" !="ItemWoodWall" !="ItemWoodWallWithDoor" !="ItemWoodWallWithDoorLocked" !="ItemWoodWallGarageDoor"

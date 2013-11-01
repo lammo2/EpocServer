@@ -6,4 +6,4 @@
 1 "PVDZE_" !"PVDZE_zed" !"PVDZE_veh" !"PVDZE_obj" !="PVDZE_plr_Login" !="PVDZE_plr_Login2" !="PVDZE_plr_Save" !="PVDZE_plr_LoginRecord" !="PVDZE_plr_TradeMenu" !="PVDZE_plr_GutBody" !="PVDZE_plr_HideBody" !="PVDZE_plr_HumanityChange" !="PVDZE_plr_Died"
 1 "PVDZE_zed" !="PVDZE_zed_Spawn"
 1 "PVDZE_veh" !="PVDZE_veh_Update" !="PVDZE_veh_Publish2" !="PVDZE_veh_Lock" !="PVDZE_veh_SFix" !="PVDZE_veh_SFuel"
-1 "PVDZE_obj" !="PVDZE_obj_Trade" !="PVDZE_obj_Publish" !="PVDZE_obj_Swap" !="PVDZE_obj_Delete" !="PVDZE_obj_Hide"
+1 "PVDZE_obj" !="PVDZE_obj_Trade" !="PVDZE_obj_Publish" !="PVDZE_obj_Swap" !="PVDZE_obj_Delete" !="PVDZE_obj_Hide" !="PVDZE_obj_RoadFlare"
