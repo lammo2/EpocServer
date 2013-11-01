@@ -92,6 +92,6 @@ _wbox3 addMagazineCargoGlobal ["1Rnd_HE_GP25", 2];
 _pwbox3 addMagazineCargoGlobal ["1Rnd_HE_M203", 2];
 _pwbox3 addMagazineCargoGlobal ["1Rnd_HE_GP25", 2];
 // Ai Turret
-execVM "\z\addons\dayz_server\compile\Turrets.sqf";
+execVM "\z\addons\dayz_server\compile\AI\Turrets.sqf";
 
 diag_log["BanditCamps Spawning Complete"];

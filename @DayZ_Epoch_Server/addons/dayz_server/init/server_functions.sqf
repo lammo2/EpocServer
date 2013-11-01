@@ -591,4 +591,4 @@ private ["_deletedLoot","_startTime","_looted","_objectPos","_noPlayerNear","_ne
 	diag_log (format["CLEANUP: DELETED %1 ITEMS, RUNTIME: %2",_deletedLoot,(_endTime - _startTime)]);
 };
 //Banditcamp boxes
-ExecVM "\z\addons\dayz_server\compile\BanditCamps.sqf";
+ExecVM "\z\addons\dayz_server\compile\AI\BanditCamps.sqf";

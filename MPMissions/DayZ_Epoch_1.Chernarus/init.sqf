@@ -114,3 +114,5 @@ if (!isDedicated) then {
 [] execVM "safezone.sqf";
 //Run Static Markers
 _markers = [] execVM "scripts\Static.sqf";
+//Run Bridge
+[] execVM "scripts\bridge.sqf";

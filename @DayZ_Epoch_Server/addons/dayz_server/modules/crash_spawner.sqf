@@ -32,8 +32,8 @@ if (_spawnRoll <= _spawnChance) then {
 	
 	//Spawn AI
 	_rndnum = round(random 3) + 2;
-	_aispawn = [_position,20,5,_rndnum,0,1,10,10,2,0] execVM "\z\addons\dayz_server\compile\add_unit_server.sqf";
-	_aispawn = [_position,20,5,1,0,1,10,10,4,0] execVM "\z\addons\dayz_server\compile\add_unit_server.sqf";
+	_aispawn = [_position,20,5,_rndnum,0,1,10,10,2,0] execVM "\z\addons\dayz_server\compile\AI\add_unit_server.sqf";
+	_aispawn = [_position,20,5,1,0,1,10,10,4,0] execVM "\z\addons\dayz_server\compile\AI\add_unit_server.sqf";
 	
 	// Using "custom" wrecks (using the destruction model of a vehicle vs. a prepared wreck model) will result
 	// in the model spawning halfway in the ground.  To combat this, an OPTIONAL configuration can be tied to
