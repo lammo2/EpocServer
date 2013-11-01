@@ -30,12 +30,14 @@
 	["skanky",5,2,False] call DZAI_spawn;
 	["skanky",5,2,False] call DZAI_spawn;
 	["skanky",5,2,False] call DZAI_spawn;
+	["skanky",5,2,False] call DZAI_spawn;
 	["skanky",5,0,False] call DZAI_spawn;
 	["skanky",5,1,False] call DZAI_spawn;
 	["skanky",3,1,False] call DZAI_spawn;
 	["skanky",3,3,False] call DZAI_spawn;
+	["skanky",3,3,False] call DZAI_spawn;
 	
-	
+	["WP",3,3,False] call DZAI_spawn;
 	["WP",3,3,False] call DZAI_spawn;
 	["WP",5,1,False] call DZAI_spawn;
 	["WP",5,2,False] call DZAI_spawn;
@@ -43,3 +45,4 @@
 	["WP",5,0,False] call DZAI_spawn;
 	["WP",3,3,False] call DZAI_spawn;
 	["WP",5,1,False] call DZAI_spawn;
+	["WP",3,3,False] call DZAI_spawn;

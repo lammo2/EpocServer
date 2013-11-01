@@ -399,7 +399,7 @@ if (isServer and isNil "sm_done") then {
 	_sBlackMarket = [] call spawn_BlackMarket;
 	_sAddedbuildings = [] call spawn_Addedbuildings;
 	_sWeaponCache = [] call spawn_WeaponCache;
-	_sSkalistyIsland = [] call spawn_SkalistyIsland;
+	_sskanky = [] call spawn_Skanky;
 
 	sm_done = true;
 	publicVariable "sm_done";
