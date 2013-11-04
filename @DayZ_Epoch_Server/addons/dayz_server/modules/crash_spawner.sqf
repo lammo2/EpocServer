@@ -14,11 +14,7 @@ if (_spawnRoll <= _spawnChance) then {
 	
 	_crashModel = ["UH60Wreck_DZ","UH1Wreck_DZ"] call BIS_fnc_selectRandom;
 
-	if(_crashModel == "Mass_grave_DZ") then {
-		_lootTable = "MassGrave";
-	} else {
-		_lootTable = "HeliCrash";
-	};
+	_lootTable = "HeliCrash";
 
 	_crashName	= getText (configFile >> "CfgVehicles" >> _crashModel >> "displayName");
 
