@@ -829,14 +829,14 @@ if (true) then
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13719.852, 2887.9983, -3.0517578e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13719.852, 2887.9983, -3.0517578e-005], [], 0, "CAN_COLLIDE"];
   _this setDir -131.43275;
   _this setPos [13719.852, 2887.9983, -3.0517578e-005];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13677.847, 2897.7583, -3.8146973e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13677.847, 2897.7583, -3.8146973e-005], [], 0, "CAN_COLLIDE"];
   _this setDir 48.281799;
   _this setPos [13677.847, 2897.7583, -3.8146973e-005];
 };
@@ -891,63 +891,63 @@ if (true) then
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Barrack2", [13680.116, 2878.5364], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Mil_Barracks_i", [13680.116, 2878.5364], [], 0, "CAN_COLLIDE"];
   _this setDir 47.788383;
   _this setPos [13680.116, 2878.5364];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13578.071, 2931.4539, -8.7738037e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13578.071, 2931.4539, -8.7738037e-005], [], 0, "CAN_COLLIDE"];
   _this setDir 99.626495;
   _this setPos [13578.071, 2931.4539, -8.7738037e-005];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13604.023, 2839.8428, -8.392334e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13604.023, 2839.8428, -8.392334e-005], [], 0, "CAN_COLLIDE"];
   _this setDir 51.30545;
   _this setPos [13604.023, 2839.8428, -8.392334e-005];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13693.217, 2805.3167, 2.6702881e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13693.217, 2805.3167, 2.6702881e-005], [], 0, "CAN_COLLIDE"];
   _this setDir 15.539824;
   _this setPos [13693.217, 2805.3167, 2.6702881e-005];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13779.215, 2819.6033, 0.00031280518], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13779.215, 2819.6033, 0.00031280518], [], 0, "CAN_COLLIDE"];
   _this setDir -46.20573;
   _this setPos [13779.215, 2819.6033, 0.00031280518];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13811.143, 2915.3333, 3.4332275e-005], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13811.143, 2915.3333, 3.4332275e-005], [], 0, "CAN_COLLIDE"];
   _this setDir -88.90477;
   _this setPos [13811.143, 2915.3333, 3.4332275e-005];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13761.054, 2972.4463, 0.00025558472], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13761.054, 2972.4463, 0.00025558472], [], 0, "CAN_COLLIDE"];
   _this setDir -158.57367;
   _this setPos [13761.054, 2972.4463, 0.00025558472];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13710.088, 3021.3428, 0.00035095215], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13710.088, 3021.3428, 0.00035095215], [], 0, "CAN_COLLIDE"];
   _this setDir -126.73484;
   _this setPos [13710.088, 3021.3428, 0.00035095215];
 };
 
 if (true) then
 {
-  _this = createVehicle ["MAP_Ind_IlluminantTower", [13613.93, 3016.9578, 0.00016021729], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Ind_IlluminantTower", [13613.93, 3016.9578, 0.00016021729], [], 0, "CAN_COLLIDE"];
   _this setDir 129.31628;
   _this setPos [13613.93, 3016.9578, 0.00016021729];
 };
