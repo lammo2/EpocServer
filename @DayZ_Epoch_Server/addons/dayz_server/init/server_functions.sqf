@@ -238,7 +238,7 @@ spawn_vehicles = {
 			
 			} else {
 				// Spawn around buildings and 50% near roads
-				if((random 1) > 0.5) then {
+				if((random 1) > 0.1) then {
 				
 					waitUntil{!isNil "BIS_fnc_selectRandom"};
 					_position = RoadList call BIS_fnc_selectRandom;
@@ -289,11 +289,11 @@ spawn_vehicles = {
 			
 				clearWeaponCargoGlobal  _veh;
 				clearMagazineCargoGlobal  _veh;
-				// _veh setVehicleAmmo DZE_vehicleAmmo;
+				_veh setVehicleAmmo 0;
 
 				// Add 0-3 loots to vehicle using random cfgloots 
 				_num = floor(random 4);
-				_allCfgLoots = ["trash","civilian","food","generic","medical","military","policeman","hunter","worker","clothes","militaryclothes","specialclothes","trash"];
+				_allCfgLoots = ["medical","military","policeman","hunter","worker","clothes","militaryclothes","specialclothes"];
 				
 				for "_x" from 1 to _num do {
 					_iClass = _allCfgLoots call BIS_fnc_selectRandom;
