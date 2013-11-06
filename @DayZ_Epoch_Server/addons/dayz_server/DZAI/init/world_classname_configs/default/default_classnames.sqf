@@ -17,10 +17,10 @@
 		DZAI_Pistols1 = ["M9","M9SD","MakarovSD","UZI_EP1","glock17_EP1"];
 		DZAI_Pistols2 = ["M9SD","MakarovSD","UZI_EP1","glock17_EP1"];
 		DZAI_Pistols3 = ["M9SD","MakarovSD","UZI_EP1","glock17_EP1"];
-		DZAI_Rifles0 = ["LeeEnfield","Winchester1866","MR43","huntingrifle","LeeEnfield","Winchester1866","MR43","Makarov","Colt1911","revolver_EP1"];
-		DZAI_Rifles1 = ["M16A2","M16A2GL","AK_74","M4A1_Aim","AKS_74_kobra","AKS_74_U","AK_47_M","M24","M1014","DMR_DZ","M4A1","M14_EP1","Remington870_lamp","MP5A5","MP5SD","M4A3_CCO_EP1"];
-		DZAI_Rifles2 = ["M16A2","M16A2GL","M249_DZ","AK_74","M4A1_Aim","AKS_74_kobra","AKS_74_U","AK_47_M","M24","M4A1","M14_EP1","Remington870_lamp","M240_DZ","M4A1_AIM_SD_camo","M16A4_ACG","M4A1_HWS_GL_camo","Mk_48_DZ","M4A3_CCO_EP1","Sa58V_RCO_EP1","Sa58V_CCO_EP1","M40A3","Sa58P_EP1","Sa58V_EP1"];
-		DZAI_Rifles3 = ["Mk_48_DZ","M249_DZ","M14_EP1","Pecheneg_DZ","DMR","SVD_Camo","RPK_74","BAF_LRR_scoped_W"];
+		DZAI_Rifles0 = ["LeeEnfield","Winchester1866","MR43","huntingrifle"];
+		DZAI_Rifles1 = ["M16A2","M16A2GL","AK_74","M4A1_Aim","AKS_74_kobra","AKS_74_U","AK_47_M","M24","M1014","M4A1","M14_EP1","M4A3_CCO_EP1"];
+		DZAI_Rifles2 = ["M16A2","M16A2GL","M249_DZ","AK_74","M4A1_Aim","AKS_74_kobra","AKS_74_U","AK_47_M","M24","M4A1","M14_EP1","M240_DZ","M4A1_AIM_SD_camo","M16A4_ACG","M4A1_HWS_GL_camo","Mk_48_DZ","M4A3_CCO_EP1","Sa58V_RCO_EP1","Sa58V_CCO_EP1","M40A3","Sa58P_EP1","Sa58V_EP1"];
+		DZAI_Rifles3 = ["Mk_48_DZ","M249_DZ","M14_EP1","Pecheneg_DZ","DMR","SVD_Camo","RPK_74"];
 		DZAI_weaponsInitialized = true;
 	};
 

@@ -27,22 +27,32 @@
 
 //----------------------------Add your custom spawn definitions below this line ----------------------------
 	["skanky",3,3,False] call DZAI_spawn;
-	["skanky",5,2,False] call DZAI_spawn;
-	["skanky",5,2,False] call DZAI_spawn;
-	["skanky",5,2,False] call DZAI_spawn;
-	["skanky",5,2,False] call DZAI_spawn;
-	["skanky",5,0,False] call DZAI_spawn;
-	["skanky",5,1,False] call DZAI_spawn;
+	["skanky",3,2,False] call DZAI_spawn;
+	["skanky",2,2,False] call DZAI_spawn;
+	["skanky",2,2,False] call DZAI_spawn;
+	["skanky",2,2,False] call DZAI_spawn;
+	["skanky",2,1,False] call DZAI_spawn;
+	["skanky",2,1,False] call DZAI_spawn;
 	["skanky",3,1,False] call DZAI_spawn;
 	["skanky",3,3,False] call DZAI_spawn;
+	["skanky",3,3,False] call DZAI_spawn;
+	["skanky",3,3,False] call DZAI_spawn;
+	["skanky",3,3,False] call DZAI_spawn;
+	["skanky",2,2,False] call DZAI_spawn;
+	["skanky",2,2,False] call DZAI_spawn;
 	["skanky",3,3,False] call DZAI_spawn;
 	
 	["WP",3,3,False] call DZAI_spawn;
 	["WP",3,3,False] call DZAI_spawn;
-	["WP",5,1,False] call DZAI_spawn;
-	["WP",5,2,False] call DZAI_spawn;
-	["WP",5,2,False] call DZAI_spawn;
-	["WP",5,0,False] call DZAI_spawn;
+	["WP",2,1,False] call DZAI_spawn;
+	["WP",3,2,False] call DZAI_spawn;
+	["WP",2,2,False] call DZAI_spawn;
+	["WP",3,1,False] call DZAI_spawn;
 	["WP",3,3,False] call DZAI_spawn;
-	["WP",5,1,False] call DZAI_spawn;
+	["WP",2,1,False] call DZAI_spawn;
+	["WP",3,3,False] call DZAI_spawn;
+	["WP",3,3,False] call DZAI_spawn;
+	["WP",2,3,False] call DZAI_spawn;
+	["WP",2,3,False] call DZAI_spawn;
+	["WP",2,1,False] call DZAI_spawn;
 	["WP",3,3,False] call DZAI_spawn;
