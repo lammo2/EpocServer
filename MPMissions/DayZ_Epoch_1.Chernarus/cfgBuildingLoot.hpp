@@ -494,22 +494,28 @@ class CfgBuildingLoot {
 		};
 	};
 	class HeliCrash: Default {
-		zombieChance = 0.4;
-		maxRoaming = 2;
+		zombieChance = 0;
+		maxRoaming = 0;
 		zombieClass[] = {"z_soldier_pilot"};
 		lootChance = 0.5;
 		lootPos[] = {};
 		itemType[] = {
+			{ "SCAR_H_CQC_CCO","weapon" },
+			{ "SCAR_H_CQC_CCO_SD","weapon" },		
+			{ "M40A3","weapon" },
+			{ "RPK_74","weapon" },
+			{ "SVD_CAMO","weapon" },
 			{ "FN_FAL","weapon" },
 			{ "M4A3_RCO_GL_EP1","weapon" },
 			{ "M14_EP1","weapon" },
 			{ "FN_FAL_ANPVS4","weapon" },
 			{ "BAF_LRR_scoped","weapon" },
-			{ "AK_107_PSO","weapon" },
+			{ "DMR","weapon" },
 			{ "Mk_48_DZ","weapon" },
 			{ "M249_DZ","weapon" },
 			{ "SCAR_L_STD_EGLM_RCO","weapon" },
 			{ "SCAR_H_STD_EGLM_Spect","weapon" },
+			{ "M32_EP1","weapon" },
 			{ "MedBox0","object" },
 			{ "NVGoggles","weapon" },
 			{ "AmmoBoxSmall_556","object" },
@@ -536,6 +542,11 @@ class CfgBuildingLoot {
 		};
 		itemChance[] =	{
 			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.02,
 			0.01,
 			0.02,
 			0.01,
@@ -545,10 +556,11 @@ class CfgBuildingLoot {
 			0.02,
 			0.01,
 			0.01,
-			0.05,
 			0.01,
 			0.03,
-			0.03,
+			0.01,
+			0.02,
+			0.02,
 			0.05,
 			0.01,
 			0.01,
