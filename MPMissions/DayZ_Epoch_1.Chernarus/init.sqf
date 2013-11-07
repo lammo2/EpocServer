@@ -28,6 +28,10 @@ dayz_maxLocalZombies = 30; // Default = 30
 dayz_tameDogs = true;
 dayz_paraSpawn = true;
 
+DefaultMagazines = ["ItemBandage","ItemBandage","ItemPainkiller","8Rnd_9x18_MakarovSD","8Rnd_9x18_MakarovSD"];
+DefaultWeapons = ["ItemFlashlight","MakarovSD","ItemCompass","ItemMap"];
+DefaultBackpack = "DZ_Patrol_Pack_EP1";
+
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
 
