@@ -12,6 +12,7 @@ if (true) then
   _this setPos [12240.278, 12712.199, 9.1552734e-005];
 };
 
+if (true) then
 {
   _this = createVehicle ["Land_Hangar_2", [12000.873, 12807.764, 9.1552734e-005], [], 0, "CAN_COLLIDE"];
   _this setDir 20.256083;
