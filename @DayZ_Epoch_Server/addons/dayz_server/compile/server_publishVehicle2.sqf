@@ -92,7 +92,7 @@ _key call server_hiveWrite;
 
 	clearWeaponCargoGlobal  _object;
 	clearMagazineCargoGlobal  _object;
-	// _object setVehicleAmmo DZE_vehicleAmmo;
+	_object setVehicleAmmo 0;
 
 	_object setVariable ["ObjectID", _oid, true];
 	
