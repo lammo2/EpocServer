@@ -9,7 +9,7 @@
 5 "10oz" !"bulk_" !"Briefcase" !="ItemAluminumBar10oz" !="ItemGoldBar10oz" !="ItemCopperBar10oz" !="ItemSilverBar10oz" !="ItemTinBar10oz"
 5 "Briefcase" !"Empty" !"bulk_" !="ItemBriefcase10oz" !="ItemBriefcase20oz" !="ItemBriefcase30oz" !="ItemBriefcase40oz" !="ItemBriefcase50oz" !="ItemBriefcase60oz" !="ItemBriefcase70oz" !="ItemBriefcase80oz" !="ItemBriefcase90oz" !="ItemBriefcase100oz"
 5 "Tent" !"bulk_" !="ItemTentOld" !="ItemTentDomed" !="ItemTent" !="ItemTentDomed2"
-5 "Part" !"bulk_" !"bulk_" !"Wood" !"Item" !="PartPlankPack" !="PartEngine" !="PartGeneric" !="PartWheel" !="PartVRotor" !="PartFueltank" !="PartGlass"
+5 "Part" !"bulk_" !"bulk_" !"Wood" !"Item" !="PartPlankPack" !="PartEngine" !="PartGeneric" !="PartWheel" !="PartVRotor" !="PartFueltank" !="PartGlass" !="PartOre"
 1 "Wood" !"bulk_" !"_kit" !="WoodenArrow" !="PartWoodPlywood" !="PartPlywoodPack" !="PartWoodLumber" !="PartWoodPile" !="ItemWoodWallThird" !="ItemWoodFloorQuarter" !="ItemWoodFloorHalf" !="ItemWoodWallWithDoorLgLocked" !="ItemWoodWallLg" !="ItemWoodWallWindowLg" !="ItemWoodStairsSupport" !="ItemWoodFloor" !="ItemWoodStairs" !="ItemWoodWall" !="ItemWoodWallWithDoor" !="ItemWoodWallWithDoorLocked" !="ItemWoodWallGarageDoor"
 5 "Smoke" !"bulk_" !"Rnd_" !="SmokeShell" !="SmokeShellRed" !="SmokeShellGreen"
 5 "00Rnd_" !"bulk_" !="100Rnd_127x99_M2" !="2000Rnd_762x51_M134" !="100Rnd_762x51_M240" !="200Rnd_556x45_M249" !="100Rnd_762x54_PK" !="200Rnd_762x51_M240" !="100Rnd_556x45_BetaCMag"
