@@ -8,5 +8,5 @@
 5 "WeaponHolder" !="WeaponHolder" !="WeaponHolder_ItemTentDomed" !="WeaponHolder_ItemTentDomed2" !="WeaponHolder_ItemMachete" !="WeaponHolder_MeleeCrowbar" !="WeaponHolder_ItemTent" !="WeaponHolder_ItemHatchet" !="WeaponHolder_ItemCrowbar" !="WeaponHolder_ItemFuelcan" !="WeaponHolder_ItemJerrycan" !="WeaponHolder_PartGlass" !="WeaponHolder_PartWheel" !="WeaponHolder_PartGeneric" !="WeaponHolder_PartFueltank" !="WeaponHolder_PartVRotor" !="WeaponHolder_PartEngine" !="WeaponHolder_ItemVault" !="WeaponHolder_ItemTentOld" !="WeaponHolder_ItemHatchet_DZE"
 1 "Preview" !"_DZ" !="Fort_RazorWirePreview" !="Land_HBarrier1Preview" !="Land_HBarrier3ePreview" !="Land_fortified_nest_smallPreview"
 5 "Parachute" !="ParachuteWest" !="ParachuteC"
-1 "Box" !="MedBox0" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox" !="LockboxStorageLocked" !="LockboxStorage" !="DebugBoxPlayer_DZ"
+5 "Box" !="MedBox0" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox" !="LockboxStorageLocked" !="LockboxStorage" !="DebugBoxPlayer_DZ"
 5 "40mm" !="G_40mm_HE" !="G_40mm_Smoke" !="F_40mm_White" !="F_40mm_Green"
