@@ -310,7 +310,7 @@ if (!isDedicated) then {
 		//if (_dikCode == 57) then {_handled = true}; // space
 		//if (_dikCode in actionKeys 'MoveForward' or _dikCode in actionKeys 'MoveBack') then {r_interrupt = true};
 		if (_dikCode == 210) then {
-				_nill = execvm "\z\addons\dayz_code\actions\playerstats.sqf";
+				_nill = execvm "Fixes\playerstats.sqf";
 		};
 		
 		if (_dikCode in actionKeys "ForceCommandingMode") then {_handled = true};
@@ -332,7 +332,7 @@ if (!isDedicated) then {
 		};
 		if (_dikCode in actionKeys "User20" and (diag_tickTime - dayz_lastCheckBit > 5)) then {
 			dayz_lastCheckBit = diag_tickTime;
-			_nill = execvm "\z\addons\dayz_code\actions\playerstats.sqf";
+			_nill = execvm "Fixes\playerstats.sqf";
 		};
 		
 		// numpad 8 0x48 now pgup 0xC9 1
