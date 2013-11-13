@@ -25,6 +25,7 @@ MaxVehicleLimit = 350; // Default = 50
 MaxDynamicDebris = 500; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 20; // Default = 30 
+DZE_BuildingLimit = 500;
 dayz_tameDogs = true;
 dayz_paraSpawn = true;
 
