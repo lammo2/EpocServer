@@ -121,3 +121,5 @@ if (!isDedicated) then {
 _markers = [] execVM "scripts\Static.sqf";
 //Run Bridge
 [] execVM "scripts\bridge.sqf";
+//Run tow/lif
+execVM "R3F_ARTY_AND_LOG\init.sqf"
