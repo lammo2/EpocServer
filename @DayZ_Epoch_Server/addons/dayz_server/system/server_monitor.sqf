@@ -5,6 +5,18 @@ dayz_versionNo = 		getText(configFile >> "CfgMods" >> "DayZ" >> "version");
 dayz_hiveVersionNo = 	getNumber(configFile >> "CfgMods" >> "DayZ" >> "hiveVersion");
 _script = getText(missionConfigFile >> "onPauseScript");
 
+// ### [CPC] Indestructible Buildables Fix
+_cpcimmune =[
+"CinderWallHalf_DZ",
+"CinderWall_DZ",
+"CinderWallDoorway_DZ",
+"MetalFloor_DZ",
+"CinderWallDoorSmallLocked_DZ",
+"CinderWallSmallDoorway_DZ",
+"CinderWallDoor_DZ"
+];
+// ### [CPC] Indestructible Buildables Fix
+
 if ((count playableUnits == 0) and !isDedicated) then {
 	isSinglePlayer = true;
 };
@@ -183,6 +195,13 @@ if (isServer and isNil "sm_done") then {
 			_object setdir _dir;
 			_object setposATL _pos;
 			_object setDamage _damage;
+			
+			// ### [CPC] Indestructible Buildables Fix
+			if (typeOf(_object) in _cpcimmune) then {
+				_object addEventHandler ["HandleDamage", {false}];
+				_object enableSimulation false;
+			};
+			// ### [CPC] Indestructible Buildables Fix
 
 			if (count _intentory > 0) then {
 				if (_type in DZE_LockedStorage) then {
