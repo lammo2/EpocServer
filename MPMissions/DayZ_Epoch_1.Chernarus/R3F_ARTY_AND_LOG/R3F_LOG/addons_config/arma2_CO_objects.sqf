@@ -156,7 +156,7 @@ R3F_LOG_CFG_objets_remorquables = R3F_LOG_CFG_objets_remorquables +
 "GNT_C185U",
 "CSJ_GyroC",
 "CSJ_GyroCover",
-"CSJ_GyroP"	
+"CSJ_GyroP",	
 "HMMWV_Armored",
 "TowingTractor",
 "MAZ_543_SCUD_TK_EP1",
