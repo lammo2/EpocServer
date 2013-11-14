@@ -238,7 +238,7 @@ spawn_vehicles = {
 			
 			} else {
 				// Spawn around buildings and 50% near roads
-				if((random 1) > 0.1) then {
+				if((random 1) > 0.5) then {
 				
 					waitUntil{!isNil "BIS_fnc_selectRandom"};
 					_position = RoadList call BIS_fnc_selectRandom;
