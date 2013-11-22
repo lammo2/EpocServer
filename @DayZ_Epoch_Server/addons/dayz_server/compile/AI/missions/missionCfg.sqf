@@ -136,4 +136,4 @@ ammo_box_tools =[
 ];
 //////////////////////////////////////////////////////////////////////
 loadedmissioncfg = True;
-[[5155.55,6821.52,0]] call spawn_ammo_box;
+//[[5155.55,6821.52,0]] call spawn_ammo_box;
