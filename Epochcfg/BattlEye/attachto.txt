@@ -5,5 +5,5 @@
 1 "Storage" !"VaultStorageLocked" !"TentStorageDomed2" !"TentStorageDomed" !"TentStorage" !"StorageShed_DZ" !"LockboxStorageLocked"
 1 "SUV_" !"SUV_Charcoal" !"SUV_Yellow" !"SUV_Camo" !"ArmoredSUV_PMC_DZE"
 1 "EP1" !"VIL_" !"UAZ_" !"HMMWV" !"BTR40_MG_TK_GUE_EP1" !"BTR40_TK_GUE_EP1" !"LandRover_CZ_EP1" !"LandRover_Special_CZ_EP1_DZE" !"Pickup_PK_TK_GUE_EP1_DZE" !"Ural_UN_EP1" !"Ural_TK_CIV_EP1"
-1 "HMMWV" !"HMMWV_M1035_DES_EP1" !"HMMWV_M2" !"HMMWV_MK19" !"HMMWV_DZ" !"HMMWV_DES_EP1"
+1 "HMMWV" !"HMMWV_M1035_DES_EP1" !"HMMWV_M2" !"HMMWV_MK19" !"HMMWV_DZ" !"HMMWV_DES_EP1" !"HMMWV_Ambulance"
 1 "Ikarus"
