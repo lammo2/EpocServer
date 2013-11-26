@@ -160,7 +160,9 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 	_isDestructable = _cursorTarget isKindOf "BuiltItems";
 	_isWreck = _typeOfCursorTarget in DZE_isWreck;
 	_isWreckBuilding = _typeOfCursorTarget in DZE_isWreckBuilding;
-	
+	_isModularItem = _cursorTarget isKindOf "ModularItems" or _cursorTarget isKindOf "Land_DZE_WoodDoor_Base" or _cursorTarget isKindOf "CinderWallDoor_DZ_Base";
+	 _isUnlockedDoor = (_cursorTarget isKindOf "Land_DZE_WoodDoorLocked_Base" or _cursorTarget isKindOf "CinderWallDoorLocked_DZ_Base") and {_cursorTarget animationPhase "Open_hinge" == 1};
+	 
 	_isRemovable = _typeOfCursorTarget in DZE_isRemovable;
 	_isDisallowRepair = _typeOfCursorTarget in ["M240Nest_DZ"];
 
@@ -196,7 +198,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 	if(_isAlive) then {
 		
 		//Allow player to delete objects
-		if(_isDestructable or _isWreck or _isRemovable or _isWreckBuilding) then {
+		if(_isDestructable or _isWreck or _isRemovable or _isWreckBuilding or _isModularItem or _isUnlockedDoor) then {
 			if(_hasToolbox and "ItemCrowbar" in _itemsPlayer) then {
 				_player_deleteBuild = true;
 			};
@@ -224,7 +226,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 
 	if(_player_deleteBuild) then {
 		if (s_player_deleteBuild < 0) then {
-			s_player_deleteBuild = player addAction [format[localize "str_actions_delete",_text], "\z\addons\dayz_code\actions\remove.sqf",_cursorTarget, 1, true, true, "", ""];
+			s_player_deleteBuild = player addAction [format[localize "str_actions_delete",_text], "fixes\remove.sqf",_cursorTarget, 1, true, true, "", ""];
 		};
 	} else {
 		player removeAction s_player_deleteBuild;
