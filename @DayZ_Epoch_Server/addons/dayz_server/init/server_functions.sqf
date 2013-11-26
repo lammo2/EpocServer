@@ -593,4 +593,4 @@ private ["_deletedLoot","_startTime","_looted","_objectPos","_noPlayerNear","_ne
 //Banditcamp boxes
 ExecVM "\z\addons\dayz_server\compile\AI\BanditCamps.sqf";
 // load WAI
-[] ExecVM "\z\addons\dayz_server\compile\AI\init.sqf";
+[] ExecVM "\z\addons\dayz_server\WAI\init.sqf";

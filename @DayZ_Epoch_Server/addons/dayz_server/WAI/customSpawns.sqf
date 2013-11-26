@@ -113,7 +113,7 @@ True                               //True: Heli will stay at position and fight.
 "Random"			          //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
-[[911.21545,4532.7612,2.6292224],  //Position that units will be dropped by
+[[13680.985, 2958.7622, 8.8380222],  //Position that units will be dropped by
 [0,0,0],                           //Starting position of the heli
 400,                               //Radius from drop position a player has to be to spawn chopper
 "UH1H_DZ",                         //Classname of chopper (Make sure it has 2 gunner seats!)

@@ -86,7 +86,7 @@ while {(alive _helicopter) AND (_drop)} do {
 	private ["_magazine","_weapon","_weaponandmag","_chute","_para"];
 	sleep 1;
 	_helipos = getpos _helicopter;
-	if (_helipos distance [(_position select 0),(_position select 1),100] <= 100) then {
+	if (_helipos distance [(_position select 0),(_position select 1),100] <= 200) then {
 		_pgroup = createGroup east;
 		for "_x" from 1 to _paranumber do {
 			sleep 1.5;
