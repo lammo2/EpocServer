@@ -1,5 +1,5 @@
-5 "" !"z_" !"FunctionsManager" !"Land_A_Castle_Stairs_A" !"Land_A_Castle_Bergfrit" !"Fort_RazorWire" !"Shot" !"CSJ_GyroCover" !"CSJ_GyroP" !"RampConcrete" !"Sign_Checkpoint_US_EP1"
+5 "" !"z_" !"HMMWV" !"SUV_" !"FunctionsManager" !"Land_A_Castle_Stairs_A" !"Land_A_Castle_Bergfrit" !"Fort_RazorWire" !"Shot" !"CSJ_GyroCover" !"CSJ_GyroP" !"RampConcrete" !"Sign_Checkpoint_US_EP1"
 5 "z_" !"z_doctor" !"z_hunter" !"z_new_villager1" !"z_new_villager2" !"z_new_villager3" !"z_new_villager4" !"z_new_worker1" !"z_new_worker2" !"z_new_worker3" !"z_new_worker4" !"z_policeman" !"z_priest" !"z_soldier_heavy" !"z_soldier_pilot" !"z_soldier" !"z_suit1" !"z_suit2" !"z_teacher" !"z_villager1" !"z_villager2" !"z_villager3" !"z_worker1" !"z_worker2" !"z_worker3" !"zZombie_Base" !"LandRover_CZ_EP1" !"GAZ_Vodnik_DZE"
-1 "HMMWV" !"HMMWV_M2" !"HMMWV_DES_EP1"
+1 "HMMWV" !"HMMWV_M2" !"HMMWV_DES_EP1" !"HMMWV_Armored" !"HMMWV_M998A2_SOV_DES_EP1_DZE"
 1 "SUV_" !"SUV_Yellow"
 // Don't ban for BattleFieldClearance, it's injected by cheaters to legit players in order to disable clientside security.
