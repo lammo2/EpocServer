@@ -15,6 +15,16 @@ _inVehicle = (_vehicle != player);
 _onLadder = (getNumber (configFile >> "CfgMovesMaleSdr" >> "States" >> (animationState player) >> "onLadder")) == 1;
 _canDo = (!r_drag_sqf and !r_player_unconscious and !_onLadder);
 
+///Admin menu
+if (((getPlayerUID player) in ["87600454"]) && (speed player <= 1) && _canDo) then {
+	if (s_player_adminTools < 0) then {
+		s_player_adminTools = player addaction [("<t color=""#0074E8"">Tools Menu</t>"),"admintools\openmenu.sqf","",5,false,true,"",""];
+	}
+} else {
+	player removeAction s_player_adminTools;
+	s_player_adminTools = -1;
+};
+
 ///////////////////////////////////////////////////////////////////////////
     //Krixes Self Bloodbag
 _mags = magazines player;
