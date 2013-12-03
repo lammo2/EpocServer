@@ -22,7 +22,7 @@ spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 MaxHeliCrashes= 10; // Default = 5
 MaxVehicleLimit = 350; // Default = 50
-MaxDynamicDebris = 200; // Default = 100
+MaxDynamicDebris = 100; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 20; // Default = 30 
 DZE_BuildingLimit = 500;
@@ -112,7 +112,7 @@ if (!isDedicated) then {
 	_void = [] execVM "R3F_Realism\R3F_Realism_Init.sqf";
 	
 	//Lights
-	[0,0,true,true,false,58,280,600,[0.698, 0.556, 0.419],"Generator_DZ",0.1] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
+	//[0,0,true,true,false,58,280,600,[0.698, 0.556, 0.419],"Generator_DZ",0.1] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
 };
 #include "\z\addons\dayz_code\system\REsec.sqf"
 // Run SafeZones
