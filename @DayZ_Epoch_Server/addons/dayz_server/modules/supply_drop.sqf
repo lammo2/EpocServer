@@ -2,7 +2,7 @@ private ["_guaranteedLoot","_randomizedLoot","_spawnChance","_spawnMarker","_spa
 
 _guaranteedLoot = 4;
 _randomizedLoot = 8;
-_spawnChance =  0.50;
+_spawnChance =  0.75;
 _spawnMarker = 'center';
 _spawnRadius = (HeliCrashArea/2);
 

@@ -33,7 +33,7 @@ DefaultMagazines = ["ItemBandage","ItemBandage","ItemPainkiller","8Rnd_9x18_Maka
 DefaultWeapons = ["ItemFlashlight","MakarovSD","ItemCompass","ItemMap"];
 DefaultBackpack = "DZ_Patrol_Pack_EP1";
 
-EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
+EpochEvents = [["any","any","any","any",15,"crash_spawner"],["any","any","any","any",0,"supply_drop"],["any","any","any","any",30,"supply_drop"]];
 dayz_fullMoonNights = true;
 
 //Load in compiled functions
