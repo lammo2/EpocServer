@@ -4,5 +4,5 @@
 5 "Wreck" !"SKODAWreck" !"datsun01Wreck" !"HMMWVWreck" !"UAZWreck" !"datsun02Wreck" !"UralWreck" !"hiluxWreck"
 1 "_EP1" !"Fort_Barricade_EP1" !"Land_Misc_Garb_Heap_EP1" !"Ural_TK_CIV_EP1" !"LandRover_CZ_EP1" !"HMMWV_Ambulance_CZ_DES_EP1" !"Old_bike_TK_INS_EP1" !"Pickup_PK_TK_GUE_EP1_DZE" !"BTR40_MG_TK_GUE_EP1" !"BTR40_TK_GUE_EP1" !"LandRover_Special_CZ_EP1_DZE" !"MAZ_543_SCUD_TK_EP1" !"MTVR_DES_EP1" !"Volha_1_TK_CIV_EP1" !"V3S_Refuel_TK_GUE_EP1_DZ" !"BTR40_MG_TK_INS_EP1"
 1 "VIL_" !"VIL_panda_civil" !"VIL_passat_civil" !"VIL_Star_S2000" !"VIL_asistvan_DZE" !"VIL_hilux1_police" !"VIL_citrone_civil3" !"VIL_fobia_civil3" !"VIL_octavia_civil"
-1 "SUV" !"SUV_Yellow" !"SUV_Camo" !"SUV_Orange" !"SUV_Charcoal"
-5 "Storage" !"TentStorageDomed2" !"VaultStorageLocked" !"VaultStorage" !"LockboxStorageLocked" !"TentStorageDomed" !"TentStorage"
+1 "SUV" !"SUV_Yellow" !"SUV_Camo" !"SUV_Orange" !"SUV_Charcoal" !"SUV_Blue" !"SUV_Silver"
+5 "Storage" !"TentStorageDomed2" !"VaultStorageLocked" !"VaultStorage" !"LockboxStorageLocked" !"TentStorageDomed" !"TentStorage" !"StorageShed_DZ"
