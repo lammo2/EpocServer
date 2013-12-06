@@ -17,6 +17,7 @@ server_deleteObj =			compile preprocessFileLineNumbers "\z\addons\dayz_server\co
 server_swapObject =			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_swapObject.sqf"; 
 server_publishVeh = 		compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_publishVehicle.sqf"; // Custom to add vehicles
 server_publishVeh2 = 		compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_publishVehicle2.sqf"; // Custom to add vehicles
+server_publishVeh3 = 		compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_publishVehicle3.sqf"; // Custom to add vehicles
 server_tradeObj = 			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_tradeObject.sqf";
 server_traders = 			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_traders.sqf";
 server_playerSync =			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_playerSync.sqf";
@@ -48,6 +49,35 @@ vehicle_handleInteract = {
 	[_object, "all"] call server_updateObject;
 };
 
+array_reduceSizeReverse = {
+	private["_array","_count","_num","_newarray","_startnum","_index"];
+	_array = _this select 0;
+	_newarray = [];
+	_count = _this select 1;
+	_num = count _array;
+	if (_num > _count) then {
+		_startnum = _num - 1;
+		_index = _count - 1;
+		for "_i" from 0 to _index do {
+			_newarray set [(_index-_i),_array select (_startnum - _i)];
+		};
+		_array = _newarray;
+	}; 
+	_array
+};
+
+array_reduceSize = {
+	private ["_array1","_array","_count","_num"];
+	_array1 = _this select 0;
+	_array = _array1 - ["Hatchet_Swing","Machete_Swing","Fishing_Swing","sledge_swing","crowbar_swing","CSGAS"];
+	_count = _this select 1;
+	_num = count _array;
+	if (_num > _count) then {
+		_array resize _count;
+	};
+	_array
+};
+
 vehicle_handleServerKilled = {
 	private["_unit","_killer"];
 	_unit = _this select 0;
@@ -63,13 +93,14 @@ vehicle_handleServerKilled = {
 };
 
 object_handleServerKilled = {
-	private["_unit","_objectID","_objectUID"];
+	private["_unit","_objectID","_objectUID","_killer"];
 	_unit = _this select 0;
+	_killer = _this select 1;
 	
 	_objectID =	 _unit getVariable ["ObjectID","0"];
 	_objectUID = _unit getVariable ["ObjectUID","0"];
 		
-	[_objectID,_objectUID] call server_deleteObj;
+	[_objectID,_objectUID,_killer] call server_deleteObj;
 	
 	_unit removeAllMPEventHandlers "MPKilled";
 	_unit removeAllEventHandlers "Killed";
@@ -118,7 +149,7 @@ eh_localCleanup =			{
 			clearVehicleInit _unit;
 			deleteVehicle _unit;
 			deleteGroup _myGroupUnit;
-			_unit = nil;
+			//_unit = nil;
 			diag_log ("CLEANUP: DELETED A " + str(_type) );
 		};
 	}];
@@ -136,7 +167,7 @@ server_hiveReadWrite = {
 	_key = _this;
 	//diag_log ("ATTEMPT READ/WRITE: " + _key);
 	_data = "HiveExt" callExtension _key;
-	//diag_log ("READ/WRITE: " +str(_data));
+	// diag_log ("READ/WRITE: " +str(_data));
 	_resultArray = call compile format ["%1",_data];
 	_resultArray
 };

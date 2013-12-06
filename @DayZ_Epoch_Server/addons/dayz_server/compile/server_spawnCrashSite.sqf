@@ -18,11 +18,11 @@ diag_log("CRASHSPAWNER: Starting spawn logic for Crash Spawner");
 while {true} do {
 	private["_timeAdjust","_timeToSpawn","_spawnRoll","_crash","_hasAdjustment","_newHeight","_adjustedPos"];
 	// Allows the variance to act as +/- from the spawn frequency timer
-	_timeAdjust = round(random(_variance * 2) - _variance);
+    _timeAdjust = round((random(_variance * 2)) - _variance);
 	_timeToSpawn = time + _frequency + _timeAdjust;
 	
 	//Adding some Random systems
-	_crashModel = ["UH60Wreck_DZ","UH1Wreck_DZ"] call BIS_fnc_selectRandom;
+	_crashModel = ["UH60Wreck_DZ","UH1Wreck_DZ","Mass_grave_DZ"] call BIS_fnc_selectRandom;
 	
 	
 	if(_crashModel == "Mass_grave_DZ") then {
@@ -30,7 +30,7 @@ while {true} do {
 	} else {
 		//Crash loot just uncomment the one you wish to use by default with 50cals is enabled.
 		//Table including 50 cals
-		_lootTable = ["HeliCrash","MilitarySpecial"] call BIS_fnc_selectRandom;
+		_lootTable = ["Military","HeliCrash","MilitarySpecial"] call BIS_fnc_selectRandom;
 		//Table without 50 cals
 		//_lootTable = ["Military","HeliCrash_No50s","MilitarySpecial"] call BIS_fnc_selectRandom;
 	};
@@ -82,7 +82,7 @@ while {true} do {
 		// Disable simulation server side
 		_crash enableSimulation false;
 
-		_num = round(random _randomizedLoot) + _guaranteedLoot;
+        _num = (round(random _randomizedLoot)) + _guaranteedLoot;
 
 		if(_crashModel == "Mass_grave_DZ") then {
 			_spawnFire = false;
@@ -98,7 +98,7 @@ while {true} do {
 
 		
 		
-		_config = 		missionConfigfile >> "CfgBuildingLoot" >> _lootTable;
+		_config = 		configFile >> "CfgBuildingLoot" >> _lootTable;
 		_itemTypes =	[] + getArray (_config >> "itemType");
 		_index =        dayz_CBLBase find toLower(_lootTable);
 		_weights =		dayz_CBLChances select _index;
