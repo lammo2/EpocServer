@@ -1,4 +1,4 @@
-5 "" !"dayz" !"usec" !"drn_" !"norrn" !"player" !"PVDZE_" !="remExField" !="remExFP" !="BIS_effects_gepv" !="atp"
+5 "" !"dayz" !"usec" !"drn_" !"norrn" !"player" !"PVDZE_" !="remExField" !="remExFP" !="BIS_effects_gepv" !="atp" !="maintainArea_log"
 5 "usec" !="usecEpi" !="usecTransfuse" !="usecBleed" !="usecBandage" !="usecPainK" !="usecMorphine" !="usecBreakLegs"
 5 "norrn" !="norrnRaDrag" !="norrnR180" !="norrnRalie" !="norrnRLact"
 5 "PVDZE_" !"PVDZE_zed" !"PVDZE_veh" !"PVDZE_obj" !="PVDZE_plr_Login" !="PVDZE_plr_Login2" !="PVDZE_plr_Save" !="PVDZE_plr_LoginRecord" !="PVDZE_plr_TradeMenu" !="PVDZE_plr_GutBody" !="PVDZE_plr_HideBody" !="PVDZE_plr_HumanityChange" !="PVDZE_plr_Died" !="PVDZE_plr_DeathB" !="PVDZE_plr_FriendRQ"
