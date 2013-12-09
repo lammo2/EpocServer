@@ -28,7 +28,7 @@ MaxDynamicDebris = 100; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 20; // Default = 30 
 
-dayz_minpos = 0; 
+dayz_minpos = -1; 
 dayz_maxpos = 16000;
 
 dayz_sellDistance_vehicle = 10;
