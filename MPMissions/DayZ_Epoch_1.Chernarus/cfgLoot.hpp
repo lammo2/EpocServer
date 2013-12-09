@@ -23,7 +23,7 @@ class CfgLoot {
 	militaryammo[] = {{"20Rnd_B_AA12_Pellets", "2000Rnd_762x51_M134", "29Rnd_30mm_AGS30", "50Rnd_127x107_DSHKM", "48Rnd_40mm_MK19", "100Rnd_127x99_M2"}, {0.3, 0.1, 0.2, 0.2, 0.2, 0.3}};
 	pistols[] = {{"Makarov", "Colt1911", "revolver_EP1", "glock17_EP1", "MakarovSD", "M9", "M9SD", "revolver_gold_EP1"}, {0.25, 0.23, 0.2, 0.1, 0.1, 0.07, 0.04, 0.01}};
 	shotgunsingleshot[] = {{"Winchester1866", "LeeEnfield", "MR43", "Saiga12K", "Remington870_lamp", "Crossbow_DZ", "M1014"}, {0.25, 0.2, 0.2, 0.13, 0.1, 0.07, 0.05}};
-	farmweapons[] = {{"Winchester1866", "LeeEnfield", "MR43", "Saiga12K", "Remington870_lamp", "Crossbow_DZ", "huntingrifle", "Chainsaw"}, {0.25, 0.2, 0.19, 0.13, 0.1, 0.07, 0.05, 0.01}};
+	farmweapons[] = {{"Winchester1866", "LeeEnfield", "MR43", "Saiga12K", "Remington870_lamp", "Crossbow_DZ", "huntingrifle", "Chainsaw"}, {0.25, 0.2, 0.19, 0.13, 0.1, 0.07, 0.05, 0.1}};
 	sniperrifles[] = {{"M110_NVG_EP1", "AK_107_PSO", "M4SPR", "M40A3", "SVD_CAMO", "SVD_des_EP1", "SVD", "huntingrifle", "M24_des_EP1", "M24", "BAF_LRR_scoped", "KSVK_DZE", "VSS_vintorez", "SCAR_H_LNG_Sniper_SD", "M14_EP1", "DMR", "SCAR_H_LNG_Sniper"}, {0.01, 0.1, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.08, 0.07, 0.06, 0.05, 0.04, 0.03, 0.02, 0.01, 0.02}};
 	sniperriflesammo[] = {{"30Rnd_545x39_AKSD", "5Rnd_127x108_KSVK", "5Rnd_86x70_L115A1", "10Rnd_762x54_SVD", "20Rnd_762x51_DMR", "5Rnd_762x51_M24", "5x_22_LR_17_HMR", "20Rnd_762x51_SB_SCAR", "20Rnd_9x39_SP5_VSS"}, {0.25, 0.2, 0.2, 0.13, 0.1, 0.07, 0.05}};
 	submachinegun[] = {{"UZI_EP1", "bizon", "Sa61_EP1", "MP5A5", "bizon_silenced", "UZI_SD_EP1", "MP5SD"}, {0.25, 0.2, 0.2, 0.13, 0.1, 0.07, 0.05}};
