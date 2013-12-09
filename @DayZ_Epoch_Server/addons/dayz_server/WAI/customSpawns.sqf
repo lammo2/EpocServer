@@ -1,6 +1,6 @@
-[[725.391,4526.06,0],    //Position to patrol
+[[7043,7699.29,0],    //Position to patrol
 [0,0,0],	             // Postition to spawn chopper at
-15000,					//Radius of patrol
+8000,					//Radius of patrol
 15,                     //Number of waypoints to give
 "UH1H_DZ",		        //Classname of vehicle (make sure it has driver and two gunners)
 1						//Skill level of units 
