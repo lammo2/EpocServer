@@ -1346,7 +1346,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonestary";
-			expCond="(player distance zonestary) < 75;";
+			expCond="(player distance zonestary) < 125;";
 			expActiv="TitleText[""Now entering trader city Stary"",""PLAIN DOWN""]; canbuild = false;";
 			expDesactiv="TitleText[""Now leaving trader city Stary"",""PLAIN DOWN""]; canbuild = true;";
 			class Effects
@@ -1362,7 +1362,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonebash_safezone";
-			expCond="(player distance zonebash_safezone) < 25;";
+			expCond="(player distance zonebash_safezone) < 75;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1378,7 +1378,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zoneklen_safezone";
-			expCond="(player distance zoneklen_safezone) < 25;";
+			expCond="(player distance zoneklen_safezone) < 75;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
@@ -1394,7 +1394,7 @@ class Sensors
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonestary_safezone";
-			expCond="(player distance zonestary_safezone) < 25;";
+			expCond="(player distance zonestary_safezone) < 125;";
 			expActiv="inSafeZone = true;";
 			expDesactiv="inSafeZone = false;";
 			class Effects
