@@ -84,12 +84,12 @@ if (!isDedicated) then {
 	
 	// Anti Hack 
 	if (true) then {
-		[] execVM "\z\addons\dayz_code\system\antihack.sqf";
+		//[] execVM "\z\addons\dayz_code\system\antihack.sqf";
 	};
 	
 	//Lights
 	if (true) then {
-		[0,0,true,true,true,58,280,600,[0.698, 0.556, 0.419],"Generator_DZ",0.1] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
+		//[0,0,true,true,true,58,280,600,[0.698, 0.556, 0.419],"Generator_DZ",0.1] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
 	};
 };
 
