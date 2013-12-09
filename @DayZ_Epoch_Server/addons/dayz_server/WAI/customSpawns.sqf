@@ -1,3 +1,18 @@
+[[725.391,4526.06,0],    //Position to patrol
+[0,0,0],	             // Postition to spawn chopper at
+15000,					//Radius of patrol
+15,                     //Number of waypoints to give
+"UH1H_DZ",		        //Classname of vehicle (make sure it has driver and two gunners)
+1						//Skill level of units 
+] spawn heli_patrol;
+
+[[725.391,4526.06,0],   //Position to patrol
+[725.391,4526.06,0],	// Postition to start
+200,					//Radius of patrol
+10,                     //Number of waypoints to give
+"HMMWV_Armored",		//Classname of vehicle (make sure it has driver and gunner)
+1						//Skill level of units 
+] spawn vehicle_patrol;
 
 [[[911.21545,4532.7612,2.6292224]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret

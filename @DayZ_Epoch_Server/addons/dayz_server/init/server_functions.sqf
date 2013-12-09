@@ -862,7 +862,5 @@ server_spawnCleanAnimals = {
 		diag_log (format["CLEANUP: Deleted %1 Animals out of %2",_delQtyAnimal,_qty]);
 	};
 };
-//Banditcamp boxes
-ExecVM "\z\addons\dayz_server\compile\AI\BanditCamps.sqf";
 // load WAI
 [] ExecVM "\z\addons\dayz_server\WAI\init.sqf";
